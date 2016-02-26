@@ -1,6 +1,6 @@
 var Vue = require('vue')
 var Index = require('../views/index.vue')
-
+var About = require('../views/about.vue')
 
 // new Vue({
 //   el: 'body',
@@ -37,6 +37,9 @@ var router = new VueRouter()
 router.map({
     '/index':{
         component: Index
+    },
+    '/about': {
+        component: About
     },
     '/foo': {
         component: Foo

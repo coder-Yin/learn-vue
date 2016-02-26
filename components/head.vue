@@ -92,7 +92,8 @@ transform: scale(1.5);}
             <span class="f12 top-middle">试着用手机访问看看呢，缩小浏览器也可以~~</span>
            </li>
            <li>
-              <a href="mysite/test/test.html">关于本站</a>
+              <!-- <a v-link="{ name: '#!/index', params: { testParam: 123 }}">关于本站</a> -->
+              <a href="#/about?a='123'">关于本站</a> 
             </li>
           </ul>
         </nav>

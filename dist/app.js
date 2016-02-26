@@ -46,7 +46,7 @@
 
 	var Vue = __webpack_require__(1)
 	var Index = __webpack_require__(3)
-	
+	var About = __webpack_require__(27)
 	
 	// new Vue({
 	//   el: 'body',
@@ -55,7 +55,7 @@
 	//   }
 	// })
 	
-	var VueRouter = __webpack_require__(27)
+	var VueRouter = __webpack_require__(35)
 	Vue.use(VueRouter)
 	
 	// 定义组件
@@ -83,6 +83,9 @@
 	router.map({
 	    '/index':{
 	        component: Index
+	    },
+	    '/about': {
+	        component: About
 	    },
 	    '/foo': {
 	        component: Foo
@@ -9811,7 +9814,7 @@
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/views/index.vue"
+	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/learn-vue/views/index.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -9867,7 +9870,7 @@
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/components/head.vue"
+	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/learn-vue/components/head.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -9891,8 +9894,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-1dfad7b4&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./head.vue", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-1dfad7b4&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./head.vue");
+			module.hot.accept("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-34e85354&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./head.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-34e85354&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./head.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -9910,7 +9913,7 @@
 	
 	
 	// module
-	exports.push([module.id, "\n.logo[_v-1dfad7b4]{position: relative;top: -10px;}\n\n.total-wrap[_v-1dfad7b4]{margin-top: 80px;text-align: center;}\n\n.total-wrap .title[_v-1dfad7b4]{font-size: 26px;}\n\n.top-middle[_v-1dfad7b4]{display: inline-block;padding-top: 15px;}\n\n.bs-docs-nav .navbar-toggle .icon-bar[_v-1dfad7b4] {\n    background-color: #58aff6;\n}\n\n#bs-navbar[_v-1dfad7b4]{background: #fff;}\n#bs-navbar .navbar-nav li a.active[_v-1dfad7b4],#bs-navbar .navbar-nav li a[_v-1dfad7b4]:hover{color: #58aff6;}\n#bs-navbar .navbar-nav li:first-child  a.active[_v-1dfad7b4]{color: #5f6060;}\n\nbutton.navbar-toggle[_v-1dfad7b4]{\n  -webkit-transition: all 1.2s;\n  transition: all 1.2s;\n}\nbutton.navbar-toggle.open[_v-1dfad7b4]{\n  -webkit-transform: rotate(180deg);\n  transform: rotate(180deg);\n}\n\n@media screen and (max-width: 768px){\n  #bs-navbar .navbar-nav li:first-child  a.active[_v-1dfad7b4]{color: #58aff6;}\n  .total-wrap[_v-1dfad7b4]{position: absolute;top: 35px;width: 100%;}\n}\n\n.go-back[_v-1dfad7b4]{font-size: 18px;color: #58aff6;text-decoration: underline;letter-spacing: 1.5;\n-webkit-transition: all .5s;\ntransition: all .5s;}\n.go-back[_v-1dfad7b4]:hover{-webkit-transform: scale(1.5);\ntransform: scale(1.5);}\n\n/*右侧返回顶部、二维码*/\n.aside[_v-1dfad7b4]{position: fixed;bottom: 50px;right: 40px;background: #fff;z-index: 999;}\n.aside a[_v-1dfad7b4]{color: #999;font-size: 20px;display: block;width: 45px;height: 45px;line-height: 45px;text-align: center;}\n.arrow-top[_v-1dfad7b4]{position: relative;z-index: 99999;border: 1px solid #ddd;border-bottom: 0 none;display: none;cursor: pointer;}\n.arrow-top.hover[_v-1dfad7b4]{background: #F3F3F3;}\n.qrcode[_v-1dfad7b4]{position: relative;z-index: 9999;border: 1px solid #ddd;}\n.qr-wrap[_v-1dfad7b4]{position: relative;cursor: pointer;}\n.qr-big[_v-1dfad7b4]{position: absolute;right: 20px;top: -44px;z-index: 999;padding: 5px;border: 1px solid #ddd;background: #fff;\n  opacity: 0;\n  -webkit-transition: all .8s;\n  transition: all .8s;\n}\n.qr-big img[_v-1dfad7b4]{width: 80px;height: 80px;}\n", "", {"version":3,"sources":["/./components/head.vue?56231480"],"names":[],"mappings":";AACA,mBAAA,mBAAA,WAAA,CAAA;;AAEA,yBAAA,iBAAA,mBAAA,CAAA;;AAEA,gCAAA,gBAAA,CAAA;;AAEA,yBAAA,sBAAA,kBAAA,CAAA;;AAEA;IACA,0BAAA;CACA;;AAEA,wBAAA,iBAAA,CAAA;AACA,+FAAA,eAAA,CAAA;AACA,6DAAA,eAAA,CAAA;;AAEA;EACA,6BAAA;EAEA,qBAAA;CACA;AACA;EACA,kCAAA;EAGA,0BAAA;CACA;;AAEA;EACA,6DAAA,eAAA,CAAA;EACA,yBAAA,mBAAA,UAAA,YAAA,CAAA;CACA;;AAEA,sBAAA,gBAAA,eAAA,2BAAA,oBAAA;AACA,4BAAA;AAEA,oBAAA,CAAA;AACA,4BAAA,8BAAA;AAGA,sBAAA,CAAA;;AAEA,cAAA;AACA,oBAAA,gBAAA,aAAA,YAAA,iBAAA,aAAA,CAAA;AACA,sBAAA,YAAA,gBAAA,eAAA,YAAA,aAAA,kBAAA,mBAAA,CAAA;AACA,wBAAA,mBAAA,eAAA,uBAAA,sBAAA,cAAA,gBAAA,CAAA;AACA,8BAAA,oBAAA,CAAA;AACA,qBAAA,mBAAA,cAAA,uBAAA,CAAA;AACA,sBAAA,mBAAA,gBAAA,CAAA;AACA,qBAAA,mBAAA,YAAA,WAAA,aAAA,aAAA,uBAAA,iBAAA;EACA,WAAA;EACA,4BAAA;EAEA,oBAAA;CACA;AACA,yBAAA,YAAA,aAAA,CAAA","file":"head.vue","sourcesContent":["<style scoped>\n.logo{position: relative;top: -10px;}\n\n.total-wrap{margin-top: 80px;text-align: center;}\n\n.total-wrap .title{font-size: 26px;}\n\n.top-middle{display: inline-block;padding-top: 15px;}\n\n.bs-docs-nav .navbar-toggle .icon-bar {\n    background-color: #58aff6;\n}\n\n#bs-navbar{background: #fff;}\n#bs-navbar .navbar-nav li a.active,#bs-navbar .navbar-nav li a:hover{color: #58aff6;}\n#bs-navbar .navbar-nav li:first-child  a.active{color: #5f6060;}\n\nbutton.navbar-toggle{\n  -webkit-transition: all 1.2s;\n  -o-transition: all 1.2s;\n  transition: all 1.2s;\n}\nbutton.navbar-toggle.open{\n  -webkit-transform: rotate(180deg);\n  -ms-transform: rotate(180deg);\n  -o-transform: rotate(180deg);\n  transform: rotate(180deg);\n}\n\n@media screen and (max-width: 768px){\n  #bs-navbar .navbar-nav li:first-child  a.active{color: #58aff6;}\n  .total-wrap{position: absolute;top: 35px;width: 100%;}\n}\n\n.go-back{font-size: 18px;color: #58aff6;text-decoration: underline;letter-spacing: 1.5;\n-webkit-transition: all .5s;\n-o-transition: all .5s;\ntransition: all .5s;}\n.go-back:hover{-webkit-transform: scale(1.5);\n-ms-transform: scale(1.5);\n-o-transform: scale(1.5);\ntransform: scale(1.5);}\n\n/*右侧返回顶部、二维码*/\n.aside{position: fixed;bottom: 50px;right: 40px;background: #fff;z-index: 999;}\n.aside a{color: #999;font-size: 20px;display: block;width: 45px;height: 45px;line-height: 45px;text-align: center;}\n.arrow-top{position: relative;z-index: 99999;border: 1px solid #ddd;border-bottom: 0 none;display: none;cursor: pointer;}\n.arrow-top.hover{background: #F3F3F3;}\n.qrcode{position: relative;z-index: 9999;border: 1px solid #ddd;}\n.qr-wrap{position: relative;cursor: pointer;}\n.qr-big{position: absolute;right: 20px;top: -44px;z-index: 999;padding: 5px;border: 1px solid #ddd;background: #fff;\n  opacity: 0;\n  -webkit-transition: all .8s;\n  -o-transition: all .8s;\n  transition: all .8s;\n}\n.qr-big img{width: 80px;height: 80px;}\n</style>\n\n<template>\n  <header class=\"navbar navbar-static-top bs-docs-nav\" id=\"top\" role=\"banner\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button class=\"navbar-toggle collapsed js-navbar-collapse\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbar\" aria-controls=\"bs-navbar\" aria-expanded=\"false\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a href=\"javascript:void(0);\" class=\"navbar-brand c-blue logo\"><img src=\"../lib/img/logo.png\" alt=\"网站logo\"></a>\n        </div>\n        <nav id=\"bs-navbar\" class=\"navbar-collapse collapse\" aria-expanded=\"false\">\n          <ul class=\"nav navbar-nav\">\n            <li>\n              <a href=\"javascript:void(0);\" class=\"active\">首页</a>\n            </li>\n            <li>\n              <a href=\"#\">简历</a>\n            </li>\n            <li>\n              <a href=\"mysite/html/resume/resume.html\">作品</a>\n            </li>\n            <li>\n              <a href=\"mysite/html/personalwork/medias.html\">组件</a>\n            </li>\n            <li>\n              <a href=\"#\">博客</a>\n            </li>\n          </ul>\n          <ul class=\"nav navbar-nav navbar-right\">\n           <li class=\"hidden-xs hidden-xs\">\n            <span class=\"f12 top-middle\">试着用手机访问看看呢，缩小浏览器也可以~~</span>\n           </li>\n           <li>\n              <a href=\"mysite/test/test.html\">关于本站</a>\n            </li>\n          </ul>\n        </nav>\n      </div>\n      <!-- <button v-on:click=\"hello\">Hello</button> -->\n    </header>\n</template>\n\n<script>\nexport default {\n  data () {\n    return {\n      msg: 'Hello from vue-loader!'\n    }\n  },\n  methods:{\n      hello: function(){\n        alert(\"hello world\");\n        this.msg=\"我被修改啦\";\n      }\n  }\n}\n</script>"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n.logo[_v-34e85354]{position: relative;top: -10px;}\n\n.total-wrap[_v-34e85354]{margin-top: 80px;text-align: center;}\n\n.total-wrap .title[_v-34e85354]{font-size: 26px;}\n\n.top-middle[_v-34e85354]{display: inline-block;padding-top: 15px;}\n\n.bs-docs-nav .navbar-toggle .icon-bar[_v-34e85354] {\n    background-color: #58aff6;\n}\n\n#bs-navbar[_v-34e85354]{background: #fff;}\n#bs-navbar .navbar-nav li a.active[_v-34e85354],#bs-navbar .navbar-nav li a[_v-34e85354]:hover{color: #58aff6;}\n#bs-navbar .navbar-nav li:first-child  a.active[_v-34e85354]{color: #5f6060;}\n\nbutton.navbar-toggle[_v-34e85354]{\n  -webkit-transition: all 1.2s;\n  transition: all 1.2s;\n}\nbutton.navbar-toggle.open[_v-34e85354]{\n  -webkit-transform: rotate(180deg);\n  transform: rotate(180deg);\n}\n\n@media screen and (max-width: 768px){\n  #bs-navbar .navbar-nav li:first-child  a.active[_v-34e85354]{color: #58aff6;}\n  .total-wrap[_v-34e85354]{position: absolute;top: 35px;width: 100%;}\n}\n\n.go-back[_v-34e85354]{font-size: 18px;color: #58aff6;text-decoration: underline;letter-spacing: 1.5;\n-webkit-transition: all .5s;\ntransition: all .5s;}\n.go-back[_v-34e85354]:hover{-webkit-transform: scale(1.5);\ntransform: scale(1.5);}\n\n/*右侧返回顶部、二维码*/\n.aside[_v-34e85354]{position: fixed;bottom: 50px;right: 40px;background: #fff;z-index: 999;}\n.aside a[_v-34e85354]{color: #999;font-size: 20px;display: block;width: 45px;height: 45px;line-height: 45px;text-align: center;}\n.arrow-top[_v-34e85354]{position: relative;z-index: 99999;border: 1px solid #ddd;border-bottom: 0 none;display: none;cursor: pointer;}\n.arrow-top.hover[_v-34e85354]{background: #F3F3F3;}\n.qrcode[_v-34e85354]{position: relative;z-index: 9999;border: 1px solid #ddd;}\n.qr-wrap[_v-34e85354]{position: relative;cursor: pointer;}\n.qr-big[_v-34e85354]{position: absolute;right: 20px;top: -44px;z-index: 999;padding: 5px;border: 1px solid #ddd;background: #fff;\n  opacity: 0;\n  -webkit-transition: all .8s;\n  transition: all .8s;\n}\n.qr-big img[_v-34e85354]{width: 80px;height: 80px;}\n", "", {"version":3,"sources":["/./components/head.vue?f2986346"],"names":[],"mappings":";AACA,mBAAA,mBAAA,WAAA,CAAA;;AAEA,yBAAA,iBAAA,mBAAA,CAAA;;AAEA,gCAAA,gBAAA,CAAA;;AAEA,yBAAA,sBAAA,kBAAA,CAAA;;AAEA;IACA,0BAAA;CACA;;AAEA,wBAAA,iBAAA,CAAA;AACA,+FAAA,eAAA,CAAA;AACA,6DAAA,eAAA,CAAA;;AAEA;EACA,6BAAA;EAEA,qBAAA;CACA;AACA;EACA,kCAAA;EAGA,0BAAA;CACA;;AAEA;EACA,6DAAA,eAAA,CAAA;EACA,yBAAA,mBAAA,UAAA,YAAA,CAAA;CACA;;AAEA,sBAAA,gBAAA,eAAA,2BAAA,oBAAA;AACA,4BAAA;AAEA,oBAAA,CAAA;AACA,4BAAA,8BAAA;AAGA,sBAAA,CAAA;;AAEA,cAAA;AACA,oBAAA,gBAAA,aAAA,YAAA,iBAAA,aAAA,CAAA;AACA,sBAAA,YAAA,gBAAA,eAAA,YAAA,aAAA,kBAAA,mBAAA,CAAA;AACA,wBAAA,mBAAA,eAAA,uBAAA,sBAAA,cAAA,gBAAA,CAAA;AACA,8BAAA,oBAAA,CAAA;AACA,qBAAA,mBAAA,cAAA,uBAAA,CAAA;AACA,sBAAA,mBAAA,gBAAA,CAAA;AACA,qBAAA,mBAAA,YAAA,WAAA,aAAA,aAAA,uBAAA,iBAAA;EACA,WAAA;EACA,4BAAA;EAEA,oBAAA;CACA;AACA,yBAAA,YAAA,aAAA,CAAA","file":"head.vue","sourcesContent":["<style scoped>\n.logo{position: relative;top: -10px;}\n\n.total-wrap{margin-top: 80px;text-align: center;}\n\n.total-wrap .title{font-size: 26px;}\n\n.top-middle{display: inline-block;padding-top: 15px;}\n\n.bs-docs-nav .navbar-toggle .icon-bar {\n    background-color: #58aff6;\n}\n\n#bs-navbar{background: #fff;}\n#bs-navbar .navbar-nav li a.active,#bs-navbar .navbar-nav li a:hover{color: #58aff6;}\n#bs-navbar .navbar-nav li:first-child  a.active{color: #5f6060;}\n\nbutton.navbar-toggle{\n  -webkit-transition: all 1.2s;\n  -o-transition: all 1.2s;\n  transition: all 1.2s;\n}\nbutton.navbar-toggle.open{\n  -webkit-transform: rotate(180deg);\n  -ms-transform: rotate(180deg);\n  -o-transform: rotate(180deg);\n  transform: rotate(180deg);\n}\n\n@media screen and (max-width: 768px){\n  #bs-navbar .navbar-nav li:first-child  a.active{color: #58aff6;}\n  .total-wrap{position: absolute;top: 35px;width: 100%;}\n}\n\n.go-back{font-size: 18px;color: #58aff6;text-decoration: underline;letter-spacing: 1.5;\n-webkit-transition: all .5s;\n-o-transition: all .5s;\ntransition: all .5s;}\n.go-back:hover{-webkit-transform: scale(1.5);\n-ms-transform: scale(1.5);\n-o-transform: scale(1.5);\ntransform: scale(1.5);}\n\n/*右侧返回顶部、二维码*/\n.aside{position: fixed;bottom: 50px;right: 40px;background: #fff;z-index: 999;}\n.aside a{color: #999;font-size: 20px;display: block;width: 45px;height: 45px;line-height: 45px;text-align: center;}\n.arrow-top{position: relative;z-index: 99999;border: 1px solid #ddd;border-bottom: 0 none;display: none;cursor: pointer;}\n.arrow-top.hover{background: #F3F3F3;}\n.qrcode{position: relative;z-index: 9999;border: 1px solid #ddd;}\n.qr-wrap{position: relative;cursor: pointer;}\n.qr-big{position: absolute;right: 20px;top: -44px;z-index: 999;padding: 5px;border: 1px solid #ddd;background: #fff;\n  opacity: 0;\n  -webkit-transition: all .8s;\n  -o-transition: all .8s;\n  transition: all .8s;\n}\n.qr-big img{width: 80px;height: 80px;}\n</style>\n\n<template>\n  <header class=\"navbar navbar-static-top bs-docs-nav\" id=\"top\" role=\"banner\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button class=\"navbar-toggle collapsed js-navbar-collapse\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbar\" aria-controls=\"bs-navbar\" aria-expanded=\"false\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a href=\"javascript:void(0);\" class=\"navbar-brand c-blue logo\"><img src=\"../lib/img/logo.png\" alt=\"网站logo\"></a>\n        </div>\n        <nav id=\"bs-navbar\" class=\"navbar-collapse collapse\" aria-expanded=\"false\">\n          <ul class=\"nav navbar-nav\">\n            <li>\n              <a href=\"javascript:void(0);\" class=\"active\">首页</a>\n            </li>\n            <li>\n              <a href=\"#\">简历</a>\n            </li>\n            <li>\n              <a href=\"mysite/html/resume/resume.html\">作品</a>\n            </li>\n            <li>\n              <a href=\"mysite/html/personalwork/medias.html\">组件</a>\n            </li>\n            <li>\n              <a href=\"#\">博客</a>\n            </li>\n          </ul>\n          <ul class=\"nav navbar-nav navbar-right\">\n           <li class=\"hidden-xs hidden-xs\">\n            <span class=\"f12 top-middle\">试着用手机访问看看呢，缩小浏览器也可以~~</span>\n           </li>\n           <li>\n              <!-- <a v-link=\"{ name: '#!/index', params: { testParam: 123 }}\">关于本站</a> -->\n              <a href=\"#/about?a='123'\">关于本站</a> \n            </li>\n          </ul>\n        </nav>\n      </div>\n      <!-- <button v-on:click=\"hello\">Hello</button> -->\n    </header>\n</template>\n\n<script>\nexport default {\n  data () {\n    return {\n      msg: 'Hello from vue-loader!'\n    }\n  },\n  methods:{\n      hello: function(){\n        alert(\"hello world\");\n        this.msg=\"我被修改啦\";\n      }\n  }\n}\n</script>"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -10296,7 +10299,8 @@
 	//             <span class="f12 top-middle">试着用手机访问看看呢，缩小浏览器也可以~~</span>
 	//            </li>
 	//            <li>
-	//               <a href="mysite/test/test.html">关于本站</a>
+	//               <!-- <a v-link="{ name: '#!/index', params: { testParam: 123 }}">关于本站</a> -->
+	//               <a href="#/about?a='123'">关于本站</a>
 	//             </li>
 	//           </ul>
 	//         </nav>
@@ -10327,7 +10331,7 @@
 /* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "\n<header class=\"navbar navbar-static-top bs-docs-nav\" id=\"top\" role=\"banner\" _v-1dfad7b4=\"\">\n    <div class=\"container\" _v-1dfad7b4=\"\">\n      <div class=\"navbar-header\" _v-1dfad7b4=\"\">\n        <button class=\"navbar-toggle collapsed js-navbar-collapse\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbar\" aria-controls=\"bs-navbar\" aria-expanded=\"false\" _v-1dfad7b4=\"\">\n          <span class=\"sr-only\" _v-1dfad7b4=\"\">Toggle navigation</span>\n          <span class=\"icon-bar\" _v-1dfad7b4=\"\"></span>\n          <span class=\"icon-bar\" _v-1dfad7b4=\"\"></span>\n          <span class=\"icon-bar\" _v-1dfad7b4=\"\"></span>\n        </button>\n        <a href=\"javascript:void(0);\" class=\"navbar-brand c-blue logo\" _v-1dfad7b4=\"\"><img src=\"" + __webpack_require__(12) + "\" alt=\"网站logo\" _v-1dfad7b4=\"\"></a>\n      </div>\n      <nav id=\"bs-navbar\" class=\"navbar-collapse collapse\" aria-expanded=\"false\" _v-1dfad7b4=\"\">\n        <ul class=\"nav navbar-nav\" _v-1dfad7b4=\"\">\n          <li _v-1dfad7b4=\"\">\n            <a href=\"javascript:void(0);\" class=\"active\" _v-1dfad7b4=\"\">首页</a>\n          </li>\n          <li _v-1dfad7b4=\"\">\n            <a href=\"#\" _v-1dfad7b4=\"\">简历</a>\n          </li>\n          <li _v-1dfad7b4=\"\">\n            <a href=\"mysite/html/resume/resume.html\" _v-1dfad7b4=\"\">作品</a>\n          </li>\n          <li _v-1dfad7b4=\"\">\n            <a href=\"mysite/html/personalwork/medias.html\" _v-1dfad7b4=\"\">组件</a>\n          </li>\n          <li _v-1dfad7b4=\"\">\n            <a href=\"#\" _v-1dfad7b4=\"\">博客</a>\n          </li>\n        </ul>\n        <ul class=\"nav navbar-nav navbar-right\" _v-1dfad7b4=\"\">\n         <li class=\"hidden-xs hidden-xs\" _v-1dfad7b4=\"\">\n          <span class=\"f12 top-middle\" _v-1dfad7b4=\"\">试着用手机访问看看呢，缩小浏览器也可以~~</span>\n         </li>\n         <li _v-1dfad7b4=\"\">\n            <a href=\"mysite/test/test.html\" _v-1dfad7b4=\"\">关于本站</a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n    <!-- <button v-on:click=\"hello\">Hello</button> -->\n  </header>\n";
+	module.exports = "\n<header class=\"navbar navbar-static-top bs-docs-nav\" id=\"top\" role=\"banner\" _v-34e85354=\"\">\n    <div class=\"container\" _v-34e85354=\"\">\n      <div class=\"navbar-header\" _v-34e85354=\"\">\n        <button class=\"navbar-toggle collapsed js-navbar-collapse\" type=\"button\" data-toggle=\"collapse\" data-target=\"#bs-navbar\" aria-controls=\"bs-navbar\" aria-expanded=\"false\" _v-34e85354=\"\">\n          <span class=\"sr-only\" _v-34e85354=\"\">Toggle navigation</span>\n          <span class=\"icon-bar\" _v-34e85354=\"\"></span>\n          <span class=\"icon-bar\" _v-34e85354=\"\"></span>\n          <span class=\"icon-bar\" _v-34e85354=\"\"></span>\n        </button>\n        <a href=\"javascript:void(0);\" class=\"navbar-brand c-blue logo\" _v-34e85354=\"\"><img src=\"" + __webpack_require__(12) + "\" alt=\"网站logo\" _v-34e85354=\"\"></a>\n      </div>\n      <nav id=\"bs-navbar\" class=\"navbar-collapse collapse\" aria-expanded=\"false\" _v-34e85354=\"\">\n        <ul class=\"nav navbar-nav\" _v-34e85354=\"\">\n          <li _v-34e85354=\"\">\n            <a href=\"javascript:void(0);\" class=\"active\" _v-34e85354=\"\">首页</a>\n          </li>\n          <li _v-34e85354=\"\">\n            <a href=\"#\" _v-34e85354=\"\">简历</a>\n          </li>\n          <li _v-34e85354=\"\">\n            <a href=\"mysite/html/resume/resume.html\" _v-34e85354=\"\">作品</a>\n          </li>\n          <li _v-34e85354=\"\">\n            <a href=\"mysite/html/personalwork/medias.html\" _v-34e85354=\"\">组件</a>\n          </li>\n          <li _v-34e85354=\"\">\n            <a href=\"#\" _v-34e85354=\"\">博客</a>\n          </li>\n        </ul>\n        <ul class=\"nav navbar-nav navbar-right\" _v-34e85354=\"\">\n         <li class=\"hidden-xs hidden-xs\" _v-34e85354=\"\">\n          <span class=\"f12 top-middle\" _v-34e85354=\"\">试着用手机访问看看呢，缩小浏览器也可以~~</span>\n         </li>\n         <li _v-34e85354=\"\">\n            <!-- <a v-link=\"{ name: '#!/index', params: { testParam: 123 }}\">关于本站</a> -->\n            <a href=\"#/about?a='123'\" _v-34e85354=\"\">关于本站</a> \n          </li>\n        </ul>\n      </nav>\n    </div>\n    <!-- <button v-on:click=\"hello\">Hello</button> -->\n  </header>\n";
 
 /***/ },
 /* 12 */
@@ -10356,7 +10360,7 @@
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/components/footer.vue"
+	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/learn-vue/components/footer.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -10452,7 +10456,7 @@
 	  var hotAPI = require("vue-hot-reload-api")
 	  hotAPI.install(require("vue"), true)
 	  if (!hotAPI.compatible) return
-	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/components/index-center.vue"
+	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/learn-vue/components/index-center.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -10476,8 +10480,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-3700a414&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./index-center.vue", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-3700a414&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./index-center.vue");
+			module.hot.accept("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-26825f24&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./index-center.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-26825f24&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./index-center.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -10495,7 +10499,7 @@
 	
 	
 	// module
-	exports.push([module.id, "\n.index-main[_v-3700a414]{position: absolute;top: 50%;-webkit-transform: translateY(-50%);\ntransform: translateY(-50%);width: 100%;/*margin-top: -185px;*/}\n.index-main .title[_v-3700a414]{\n    text-transform: uppercase;\n    font-weight: 700;\n    font-size: 85px;\n    font-size: 70px\\0;\n    color: #7da755;\n    line-height: 88px;\n    letter-spacing: .05px;\n    margin-bottom: 4px;\n}\n\n.index-main .sub-title[_v-3700a414] {\n    font-weight: 100;\n    font-size: 21px;\n    color: #5f6060;\n    letter-spacing: 2px;\n}\n\n.index-main .container[_v-3700a414]{margin-top: 100px;}\n\n.index-main .each-col[_v-3700a414]{text-align: center;margin-bottom: 15px;}\n\n.index-main .each-col .img[_v-3700a414]{\n\twidth: 125px;\n\theight: 125px;\n    margin: 0 auto;\n}\n\n.index-main .each-col .desc[_v-3700a414]{margin-top: 25px;}\n\n.index-main .each-col .desc a[_v-3700a414]{\n\tfont-weight: 100;\n\tfont-size: 21px;\n\tcolor: #5f6060;\n    letter-spacing: 2px;\n    text-decoration: none;\n}\n\n.user-photo[_v-3700a414]{\n\tborder-radius: 50%;\n\t-webkit-transition: all .8s ease-in;\n\ttransition: all .8s ease-in;\n}\n.user-photo[_v-3700a414]:hover{\n\t-webkit-transform: rotate(360deg);\n\ttransform: rotate(360deg);\n}\n\n\n@media screen and (max-width: 768px){\n/*\t.index-main{margin-top: -300px;}*/\n\t.index-main .title[_v-3700a414]{font-size: 28px;}\n\t.index-main .sub-title[_v-3700a414]{font-size: 18px;}\n\t.index-main .container[_v-3700a414]{margin-top: 50px;}\n\t.index-main .each-col .img[_v-3700a414]{\n\t\twidth: 80px;\n\t\theight: 80px;\n\t}\n\t.index-main .each-col .desc a[_v-3700a414]{font-size: 16px;}\n\t.index-main[_v-3700a414]{position: absolute;top: 80px;-webkit-transform: none;\n\ttransform: none;\n\tpadding-bottom: 80px;\n\t}\n}\n\n@media screen and (max-width: 640px){\n\t.title[_v-3700a414]{font-size: 20px;font-family: \"microsoft yahei\";}\n\t.sub-title[_v-3700a414]{font-size: 12px;font-family: \"microsoft yahei\";line-height: 25px;}\n}\n", "", {"version":3,"sources":["/./components/index-center.vue?247ef445"],"names":[],"mappings":";AACA,yBAAA,mBAAA,SAAA,oCAAA;AAGA,4BAAA,YAAA,uBAAA,CAAA;AACA;IACA,0BAAA;IACA,iBAAA;IACA,gBAAA;IACA,kBAAA;IACA,eAAA;IACA,kBAAA;IACA,sBAAA;IACA,mBAAA;CACA;;AAEA;IACA,iBAAA;IACA,gBAAA;IACA,eAAA;IACA,oBAAA;CACA;;AAEA,oCAAA,kBAAA,CAAA;;AAEA,mCAAA,mBAAA,oBAAA,CAAA;;AAEA;CACA,aAAA;CACA,cAAA;IACA,eAAA;CACA;;AAEA,yCAAA,iBAAA,CAAA;;AAEA;CACA,iBAAA;CACA,gBAAA;CACA,eAAA;IACA,oBAAA;IACA,sBAAA;CACA;;AAEA;CACA,mBAAA;CACA,oCAAA;CAIA,4BAAA;CACA;AACA;CACA,kCAAA;CAIA,0BAAA;CACA;;;AAGA;AACA,qCAAA;CACA,gCAAA,gBAAA,CAAA;CACA,oCAAA,gBAAA,CAAA;CACA,oCAAA,iBAAA,CAAA;CACA;EACA,YAAA;EACA,aAAA;EACA;CACA,2CAAA,gBAAA,CAAA;CACA,yBAAA,mBAAA,UAAA,wBAAA;CAGA,gBAAA;CACA,qBAAA;EACA;CACA;;AAEA;CACA,oBAAA,gBAAA,+BAAA,CAAA;CACA,wBAAA,gBAAA,+BAAA,kBAAA,CAAA;CACA","file":"index-center.vue","sourcesContent":["<style scoped>\n.index-main{position: absolute;top: 50%;-webkit-transform: translateY(-50%);\n-ms-transform: translateY(-50%);\n-o-transform: translateY(-50%);\ntransform: translateY(-50%);width: 100%;/*margin-top: -185px;*/}\n.index-main .title{\n    text-transform: uppercase;\n    font-weight: 700;\n    font-size: 85px;\n    font-size: 70px\\0;\n    color: #7da755;\n    line-height: 88px;\n    letter-spacing: .05px;\n    margin-bottom: 4px;\n}\n\n.index-main .sub-title {\n    font-weight: 100;\n    font-size: 21px;\n    color: #5f6060;\n    letter-spacing: 2px;\n}\n\n.index-main .container{margin-top: 100px;}\n\n.index-main .each-col{text-align: center;margin-bottom: 15px;}\n\n.index-main .each-col .img{\n\twidth: 125px;\n\theight: 125px;\n    margin: 0 auto;\n}\n\n.index-main .each-col .desc{margin-top: 25px;}\n\n.index-main .each-col .desc a{\n\tfont-weight: 100;\n\tfont-size: 21px;\n\tcolor: #5f6060;\n    letter-spacing: 2px;\n    text-decoration: none;\n}\n\n.user-photo{\n\tborder-radius: 50%;\n\t-webkit-transition: all .8s ease-in;\n\t-moz-transition: all .8s ease-in;\n\t-ms-transition: all .8s ease-in;\n\t-o-transition: all .8s ease-in;\n\ttransition: all .8s ease-in;\n}\n.user-photo:hover{\n\t-webkit-transform: rotate(360deg);\n\t-moz-transform: rotate(360deg);\n\t-ms-transform: rotate(360deg);\n\t-o-transform: rotate(360deg);\n\ttransform: rotate(360deg);\n}\n\n\n@media screen and (max-width: 768px){\n/*\t.index-main{margin-top: -300px;}*/\n\t.index-main .title{font-size: 28px;}\n\t.index-main .sub-title{font-size: 18px;}\n\t.index-main .container{margin-top: 50px;}\n\t.index-main .each-col .img{\n\t\twidth: 80px;\n\t\theight: 80px;\n\t}\n\t.index-main .each-col .desc a{font-size: 16px;}\n\t.index-main{position: absolute;top: 80px;-webkit-transform: none;\n\t-ms-transform: none;\n\t-o-transform: none;\n\ttransform: none;\n\tpadding-bottom: 80px;\n\t}\n}\n\n@media screen and (max-width: 640px){\n\t.title{font-size: 20px;font-family: \"microsoft yahei\";}\n\t.sub-title{font-size: 12px;font-family: \"microsoft yahei\";line-height: 25px;}\n}\n</style>\n\n<template>\n<section class=\"container-fluid index-main text-center\">\n  <h1 class=\"title f-as\">I am a web coder</h1>\n  <h2 class=\"sub-title f-as mt15\">you can contact me by <a href=\"mailto:yin_x_f@163.com?subject=我从您的博客看到您的联系信息\">yin_x_f@163.com</a></h2>\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-3 col sm-6 col-xs-6\">\n        <div class=\"each-col\">\n          <a href=\"mysite/html/resume/resume.html\"><img src=\"../lib/img/index-icon1.png\" alt=\"这里是图片\" class=\"img user-photo\"></a>\n          <p class=\"desc\"><a href=\"mysite/html/resume/resume.html\">个人简历</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\">\n        <div class=\"each-col\">\n          <a href=\"mysite/html/personalwork/medias.html\"><img src=\"../lib/img/index-icon3.gif\" alt=\"这里是图片\" class=\"img user-photo\"></a>\n          <p class=\"desc\"><a href=\"mysite/html/personalwork/medias.html\">前端组件</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\">\n        <div class=\"each-col\">\n          <a href=\"javascript:void(0);\"><img src=\"../lib/img/index-icon2.svg\" alt=\"这里是图片\" class=\"img user-photo img-responsive\"></a>\n          <p class=\"desc\"><a href=\"mysite/html/works/html5/index.html\">个人作品</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\">\n        <div class=\"each-col\">\n          <a href=\"javascript:void(0);\"><img src=\"../lib/img/index-icon4.gif\" alt=\"这里是图片\" class=\"img user-photo\"></a>\n          <p class=\"desc\"><a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\">个人博客</a></p>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n</template>\n\n<script></script>\n"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n.index-main[_v-26825f24]{position: absolute;top: 50%;-webkit-transform: translateY(-50%);\ntransform: translateY(-50%);width: 100%;/*margin-top: -185px;*/}\n.index-main .title[_v-26825f24]{\n    text-transform: uppercase;\n    font-weight: 700;\n    font-size: 85px;\n    font-size: 70px\\0;\n    color: #7da755;\n    line-height: 88px;\n    letter-spacing: .05px;\n    margin-bottom: 4px;\n}\n\n.index-main .sub-title[_v-26825f24] {\n    font-weight: 100;\n    font-size: 21px;\n    color: #5f6060;\n    letter-spacing: 2px;\n}\n\n.index-main .container[_v-26825f24]{margin-top: 100px;}\n\n.index-main .each-col[_v-26825f24]{text-align: center;margin-bottom: 15px;}\n\n.index-main .each-col .img[_v-26825f24]{\n\twidth: 125px;\n\theight: 125px;\n    margin: 0 auto;\n}\n\n.index-main .each-col .desc[_v-26825f24]{margin-top: 25px;}\n\n.index-main .each-col .desc a[_v-26825f24]{\n\tfont-weight: 100;\n\tfont-size: 21px;\n\tcolor: #5f6060;\n    letter-spacing: 2px;\n    text-decoration: none;\n}\n\n.user-photo[_v-26825f24]{\n\tborder-radius: 50%;\n\t-webkit-transition: all .8s ease-in;\n\ttransition: all .8s ease-in;\n}\n.user-photo[_v-26825f24]:hover{\n\t-webkit-transform: rotate(360deg);\n\ttransform: rotate(360deg);\n}\n\n\n@media screen and (max-width: 768px){\n/*\t.index-main{margin-top: -300px;}*/\n\t.index-main .title[_v-26825f24]{font-size: 28px;}\n\t.index-main .sub-title[_v-26825f24]{font-size: 18px;}\n\t.index-main .container[_v-26825f24]{margin-top: 50px;}\n\t.index-main .each-col .img[_v-26825f24]{\n\t\twidth: 80px;\n\t\theight: 80px;\n\t}\n\t.index-main .each-col .desc a[_v-26825f24]{font-size: 16px;}\n\t.index-main[_v-26825f24]{position: absolute;top: 80px;-webkit-transform: none;\n\ttransform: none;\n\tpadding-bottom: 80px;\n\t}\n}\n\n@media screen and (max-width: 640px){\n\t.title[_v-26825f24]{font-size: 20px;font-family: \"microsoft yahei\";}\n\t.sub-title[_v-26825f24]{font-size: 12px;font-family: \"microsoft yahei\";line-height: 25px;}\n}\n", "", {"version":3,"sources":["/./components/index-center.vue?247ef445"],"names":[],"mappings":";AACA,yBAAA,mBAAA,SAAA,oCAAA;AAGA,4BAAA,YAAA,uBAAA,CAAA;AACA;IACA,0BAAA;IACA,iBAAA;IACA,gBAAA;IACA,kBAAA;IACA,eAAA;IACA,kBAAA;IACA,sBAAA;IACA,mBAAA;CACA;;AAEA;IACA,iBAAA;IACA,gBAAA;IACA,eAAA;IACA,oBAAA;CACA;;AAEA,oCAAA,kBAAA,CAAA;;AAEA,mCAAA,mBAAA,oBAAA,CAAA;;AAEA;CACA,aAAA;CACA,cAAA;IACA,eAAA;CACA;;AAEA,yCAAA,iBAAA,CAAA;;AAEA;CACA,iBAAA;CACA,gBAAA;CACA,eAAA;IACA,oBAAA;IACA,sBAAA;CACA;;AAEA;CACA,mBAAA;CACA,oCAAA;CAIA,4BAAA;CACA;AACA;CACA,kCAAA;CAIA,0BAAA;CACA;;;AAGA;AACA,qCAAA;CACA,gCAAA,gBAAA,CAAA;CACA,oCAAA,gBAAA,CAAA;CACA,oCAAA,iBAAA,CAAA;CACA;EACA,YAAA;EACA,aAAA;EACA;CACA,2CAAA,gBAAA,CAAA;CACA,yBAAA,mBAAA,UAAA,wBAAA;CAGA,gBAAA;CACA,qBAAA;EACA;CACA;;AAEA;CACA,oBAAA,gBAAA,+BAAA,CAAA;CACA,wBAAA,gBAAA,+BAAA,kBAAA,CAAA;CACA","file":"index-center.vue","sourcesContent":["<style scoped>\n.index-main{position: absolute;top: 50%;-webkit-transform: translateY(-50%);\n-ms-transform: translateY(-50%);\n-o-transform: translateY(-50%);\ntransform: translateY(-50%);width: 100%;/*margin-top: -185px;*/}\n.index-main .title{\n    text-transform: uppercase;\n    font-weight: 700;\n    font-size: 85px;\n    font-size: 70px\\0;\n    color: #7da755;\n    line-height: 88px;\n    letter-spacing: .05px;\n    margin-bottom: 4px;\n}\n\n.index-main .sub-title {\n    font-weight: 100;\n    font-size: 21px;\n    color: #5f6060;\n    letter-spacing: 2px;\n}\n\n.index-main .container{margin-top: 100px;}\n\n.index-main .each-col{text-align: center;margin-bottom: 15px;}\n\n.index-main .each-col .img{\n\twidth: 125px;\n\theight: 125px;\n    margin: 0 auto;\n}\n\n.index-main .each-col .desc{margin-top: 25px;}\n\n.index-main .each-col .desc a{\n\tfont-weight: 100;\n\tfont-size: 21px;\n\tcolor: #5f6060;\n    letter-spacing: 2px;\n    text-decoration: none;\n}\n\n.user-photo{\n\tborder-radius: 50%;\n\t-webkit-transition: all .8s ease-in;\n\t-moz-transition: all .8s ease-in;\n\t-ms-transition: all .8s ease-in;\n\t-o-transition: all .8s ease-in;\n\ttransition: all .8s ease-in;\n}\n.user-photo:hover{\n\t-webkit-transform: rotate(360deg);\n\t-moz-transform: rotate(360deg);\n\t-ms-transform: rotate(360deg);\n\t-o-transform: rotate(360deg);\n\ttransform: rotate(360deg);\n}\n\n\n@media screen and (max-width: 768px){\n/*\t.index-main{margin-top: -300px;}*/\n\t.index-main .title{font-size: 28px;}\n\t.index-main .sub-title{font-size: 18px;}\n\t.index-main .container{margin-top: 50px;}\n\t.index-main .each-col .img{\n\t\twidth: 80px;\n\t\theight: 80px;\n\t}\n\t.index-main .each-col .desc a{font-size: 16px;}\n\t.index-main{position: absolute;top: 80px;-webkit-transform: none;\n\t-ms-transform: none;\n\t-o-transform: none;\n\ttransform: none;\n\tpadding-bottom: 80px;\n\t}\n}\n\n@media screen and (max-width: 640px){\n\t.title{font-size: 20px;font-family: \"microsoft yahei\";}\n\t.sub-title{font-size: 12px;font-family: \"microsoft yahei\";line-height: 25px;}\n}\n</style>\n\n<template>\n<section class=\"container-fluid index-main text-center\">\n  <h1 class=\"title f-as\">I am a web coder</h1>\n  <h2 class=\"sub-title f-as mt15\">you can contact me by <a href=\"mailto:yin_x_f@163.com?subject=我从您的博客看到您的联系信息\">yin_x_f@163.com</a></h2>\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-3 col sm-6 col-xs-6\">\n        <div class=\"each-col\">\n          <a href=\"mysite/html/resume/resume.html\"><img src=\"../lib/img/index-icon1.png\" alt=\"这里是图片\" class=\"img user-photo\"></a>\n          <p class=\"desc\"><a href=\"mysite/html/resume/resume.html\">个人简历</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\">\n        <div class=\"each-col\">\n          <a href=\"mysite/html/personalwork/medias.html\"><img src=\"../lib/img/index-icon3.gif\" alt=\"这里是图片\" class=\"img user-photo\"></a>\n          <p class=\"desc\"><a href=\"mysite/html/personalwork/medias.html\">前端组件</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\">\n        <div class=\"each-col\">\n          <a href=\"javascript:void(0);\"><img src=\"../lib/img/index-icon2.svg\" alt=\"这里是图片\" class=\"img user-photo img-responsive\"></a>\n          <p class=\"desc\"><a href=\"mysite/html/works/html5/index.html\">个人作品</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\">\n        <div class=\"each-col\">\n          <a href=\"javascript:void(0);\"><img src=\"../lib/img/index-icon4.gif\" alt=\"这里是图片\" class=\"img user-photo\"></a>\n          <p class=\"desc\"><a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\">个人博客</a></p>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n</template>\n\n<script></script>\n"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -10504,7 +10508,7 @@
 /* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "\n<section class=\"container-fluid index-main text-center\" _v-3700a414=\"\">\n  <h1 class=\"title f-as\" _v-3700a414=\"\">I am a web coder</h1>\n  <h2 class=\"sub-title f-as mt15\" _v-3700a414=\"\">you can contact me by <a href=\"mailto:yin_x_f@163.com?subject=我从您的博客看到您的联系信息\" _v-3700a414=\"\">yin_x_f@163.com</a></h2>\n  <div class=\"container\" _v-3700a414=\"\">\n    <div class=\"row\" _v-3700a414=\"\">\n      <div class=\"col-md-3 col sm-6 col-xs-6\" _v-3700a414=\"\">\n        <div class=\"each-col\" _v-3700a414=\"\">\n          <a href=\"mysite/html/resume/resume.html\" _v-3700a414=\"\"><img src=\"" + __webpack_require__(22) + "\" alt=\"这里是图片\" class=\"img user-photo\" _v-3700a414=\"\"></a>\n          <p class=\"desc\" _v-3700a414=\"\"><a href=\"mysite/html/resume/resume.html\" _v-3700a414=\"\">个人简历</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\" _v-3700a414=\"\">\n        <div class=\"each-col\" _v-3700a414=\"\">\n          <a href=\"mysite/html/personalwork/medias.html\" _v-3700a414=\"\"><img src=\"" + __webpack_require__(23) + "\" alt=\"这里是图片\" class=\"img user-photo\" _v-3700a414=\"\"></a>\n          <p class=\"desc\" _v-3700a414=\"\"><a href=\"mysite/html/personalwork/medias.html\" _v-3700a414=\"\">前端组件</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\" _v-3700a414=\"\">\n        <div class=\"each-col\" _v-3700a414=\"\">\n          <a href=\"javascript:void(0);\" _v-3700a414=\"\"><img src=\"" + __webpack_require__(24) + "\" alt=\"这里是图片\" class=\"img user-photo img-responsive\" _v-3700a414=\"\"></a>\n          <p class=\"desc\" _v-3700a414=\"\"><a href=\"mysite/html/works/html5/index.html\" _v-3700a414=\"\">个人作品</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\" _v-3700a414=\"\">\n        <div class=\"each-col\" _v-3700a414=\"\">\n          <a href=\"javascript:void(0);\" _v-3700a414=\"\"><img src=\"" + __webpack_require__(25) + "\" alt=\"这里是图片\" class=\"img user-photo\" _v-3700a414=\"\"></a>\n          <p class=\"desc\" _v-3700a414=\"\"><a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" _v-3700a414=\"\">个人博客</a></p>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n";
+	module.exports = "\n<section class=\"container-fluid index-main text-center\" _v-26825f24=\"\">\n  <h1 class=\"title f-as\" _v-26825f24=\"\">I am a web coder</h1>\n  <h2 class=\"sub-title f-as mt15\" _v-26825f24=\"\">you can contact me by <a href=\"mailto:yin_x_f@163.com?subject=我从您的博客看到您的联系信息\" _v-26825f24=\"\">yin_x_f@163.com</a></h2>\n  <div class=\"container\" _v-26825f24=\"\">\n    <div class=\"row\" _v-26825f24=\"\">\n      <div class=\"col-md-3 col sm-6 col-xs-6\" _v-26825f24=\"\">\n        <div class=\"each-col\" _v-26825f24=\"\">\n          <a href=\"mysite/html/resume/resume.html\" _v-26825f24=\"\"><img src=\"" + __webpack_require__(22) + "\" alt=\"这里是图片\" class=\"img user-photo\" _v-26825f24=\"\"></a>\n          <p class=\"desc\" _v-26825f24=\"\"><a href=\"mysite/html/resume/resume.html\" _v-26825f24=\"\">个人简历</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\" _v-26825f24=\"\">\n        <div class=\"each-col\" _v-26825f24=\"\">\n          <a href=\"mysite/html/personalwork/medias.html\" _v-26825f24=\"\"><img src=\"" + __webpack_require__(23) + "\" alt=\"这里是图片\" class=\"img user-photo\" _v-26825f24=\"\"></a>\n          <p class=\"desc\" _v-26825f24=\"\"><a href=\"mysite/html/personalwork/medias.html\" _v-26825f24=\"\">前端组件</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\" _v-26825f24=\"\">\n        <div class=\"each-col\" _v-26825f24=\"\">\n          <a href=\"javascript:void(0);\" _v-26825f24=\"\"><img src=\"" + __webpack_require__(24) + "\" alt=\"这里是图片\" class=\"img user-photo img-responsive\" _v-26825f24=\"\"></a>\n          <p class=\"desc\" _v-26825f24=\"\"><a href=\"mysite/html/works/html5/index.html\" _v-26825f24=\"\">个人作品</a></p>\n        </div>\n      </div>\n      <div class=\"col-md-3 col sm-6 col-xs-6\" _v-26825f24=\"\">\n        <div class=\"each-col\" _v-26825f24=\"\">\n          <a href=\"javascript:void(0);\" _v-26825f24=\"\"><img src=\"" + __webpack_require__(25) + "\" alt=\"这里是图片\" class=\"img user-photo\" _v-26825f24=\"\"></a>\n          <p class=\"desc\" _v-26825f24=\"\"><a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" _v-26825f24=\"\">个人博客</a></p>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n";
 
 /***/ },
 /* 22 */
@@ -10538,6 +10542,162 @@
 
 /***/ },
 /* 27 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__vue_script__ = __webpack_require__(28)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] views/about.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(34)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/learn-vue/views/about.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 28 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	// <template>
+	//
+	//     <nv-head></nv-head>
+	//     <about-content></about-content>
+	//     <nv-bottom></nv-bottom>
+	//
+	// </template>
+	// <script>
+	exports.default = {
+	    components: {
+	        "nvHead": __webpack_require__(5),
+	        "nvBottom": __webpack_require__(13),
+	        "aboutContent": __webpack_require__(29)
+	    }
+	};
+	// </script>
+	/* generated by vue-loader */
+
+/***/ },
+/* 29 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __vue_script__, __vue_template__
+	__webpack_require__(30)
+	__vue_script__ = __webpack_require__(32)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] components/about-content.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(33)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/learn-vue/components/about-content.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
+
+/***/ },
+/* 30 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(31);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(9)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-59a700f5&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./about-content.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-59a700f5&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./about-content.vue");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 31 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(8)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "\n.about-web[_v-59a700f5]{position: absolute;top: 50%;left: 50%;margin-top: -25px;margin-left: -115px;font-size: 24px;font-weight: bold;color: #333;}\n.about-web .content[_v-59a700f5]{font-size: 14px;color: #666;}\n", "", {"version":3,"sources":["/./components/about-content.vue?c7cacea0"],"names":[],"mappings":";AACA,wBAAA,mBAAA,SAAA,UAAA,kBAAA,oBAAA,gBAAA,kBAAA,YAAA,CAAA;AACA,iCAAA,gBAAA,YAAA,CAAA","file":"about-content.vue","sourcesContent":["<style scoped>\n\t.about-web{position: absolute;top: 50%;left: 50%;margin-top: -25px;margin-left: -115px;font-size: 24px;font-weight: bold;color: #333;}\n\t.about-web .content{font-size: 14px;color: #666;}\n</style>\n\n<template>\n  <section class=\"container text-center\">\n        <p class=\"about-web\">关于我们<span class=\"content\">（临时内容）</span></p>\n  </section>\n</template>\n\n<script>\n</script>"],"sourceRoot":"webpack://"}]);
+	
+	// exports
+
+
+/***/ },
+/* 32 */
+/***/ function(module, exports) {
+
+	// <style scoped>
+	// 	.about-web{position: absolute;top: 50%;left: 50%;margin-top: -25px;margin-left: -115px;font-size: 24px;font-weight: bold;color: #333;}
+	// 	.about-web .content{font-size: 14px;color: #666;}
+	// </style>
+	//
+	// <template>
+	//   <section class="container text-center">
+	//         <p class="about-web">关于我们<span class="content">（临时内容）</span></p>
+	//   </section>
+	// </template>
+	//
+	// <script>
+	// </script>
+	/* generated by vue-loader */
+	"use strict";
+
+/***/ },
+/* 33 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<section class=\"container text-center\" _v-59a700f5=\"\">\n      <p class=\"about-web\" _v-59a700f5=\"\">关于我们<span class=\"content\" _v-59a700f5=\"\">（临时内容）</span></p>\n</section>\n";
+
+/***/ },
+/* 34 */
+/***/ function(module, exports) {
+
+	module.exports = "\n\n<nv-head></nv-head>\n<about-content></about-content>\n<nv-bottom></nv-bottom>\n\n";
+
+/***/ },
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*!

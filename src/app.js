@@ -11,6 +11,8 @@ var About = require('../views/about.vue')
 
 var VueRouter = require('vue-router')
 Vue.use(VueRouter)
+var VueResource = require('vue-resource')
+Vue.use(VueResource)
 
 // 定义组件
 var Foo = Vue.extend({

@@ -5,9 +5,25 @@
 
 <template>
   <section class="container text-center">
-        <p class="about-web">关于我们<span class="content">（临时内容）</span></p>
+        <p class="about-web">关于我们<span class="content">（{{ msg }}）</span></p>
   </section>
 </template>
 
+
+
 <script>
+export default {
+  ready: function() {
+      this.$http.get('testJson.json', function(d) {
+            this.$set('msg', d.data.info);
+        }).error(function(data, status, request) {
+            console.log('fail' + status + "," + request);
+        })
+  },
+  data () {
+    return {
+      msg: '临时内容'
+    }
+  }
+}
 </script>

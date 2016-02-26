@@ -6,19 +6,30 @@
 <template>
   <section class="container text-center">
         <p class="about-web">关于我们<span class="content">（{{ msg }}）</span></p>
+        <div id="container"></div>
   </section>
 </template>
 
 
 
 <script>
+var utils = require('../lib/js/common/utils')       //加载公用函数
+var $ = require('../lib/js/common/jquery')
+var Highcharts = require('../lib/js/plugins/highcharts')
 export default {
   ready: function() {
+
+      //获得地址栏特定键的参数
+      var paramA = utils.getUrlParam("paramA");
+      console.log(paramA);
       this.$http.get('testJson.json', function(d) {
             this.$set('msg', d.data.info);
-        }).error(function(data, status, request) {
-            console.log('fail' + status + "," + request);
-        })
+      }).error(function(data, status, request) {
+          console.log('fail' + status + "," + request);
+      });
+
+      $("#container").html("abcdefg--我是jquery操作dom结构出来的数据");
+      
   },
   data () {
     return {

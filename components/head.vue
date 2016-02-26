@@ -93,7 +93,7 @@ transform: scale(1.5);}
            </li>
            <li>
               <!-- <a v-link="{ name: '#!/index', params: { testParam: 123 }}">关于本站</a> -->
-              <a href="#/about?a='123'">关于本站</a> 
+              <a href="#/about?paramA='123'">关于本站</a> 
             </li>
           </ul>
         </nav>

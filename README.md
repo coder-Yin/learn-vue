@@ -3,6 +3,8 @@
 #####使用技术： vue.js+webpack
 #####项目说明： 此项目是本人空余时间搭建的，项目会一直迭代更新。希望大家提供宝贵的意见和建议，谢谢。
 #####邮&emsp;&emsp;&ensp;箱： yin_x_f@163.com
+#####个人网站： http://www.coderyin.com/
+#####个人博客： http://www.jianshu.com/users/489e597a9cad/latest_articles
 
 
 ####历史更新

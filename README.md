@@ -6,7 +6,48 @@
 
 
 ####历史更新
+  *2016.03.01*
+  
+  1.增加博客版块页面;
 
+  2.修改webpack配置文件webpack.config.js,以支持编译多个对应的js文件;
+     
+     原先：
+     
+     entry: './src/app.js',
+     
+     output: {
+    
+      path: './dist', //文件夹生成的目录
+      
+      publicPath: '../dist/', //静态文件（图片）的路径
+      
+      filename: 'app.js'
+      
+    },
+    
+    新的：
+    
+    entry: {
+    
+      app:['./src/app.js'],
+      
+      blog_index:['./src/blog_index.js']
+      
+    },
+    
+    output: {
+    
+      path: './dist', //文件夹生成的目录
+      
+      publicPath: '../dist/', //静态文件（图片）的路径
+      
+      filename: '[name].js'
+      
+    }
+ 
+  3.博客版块json文件添加；
+  
   *2016.02.26*
   
   	1. 增加页面跳转，url传参;

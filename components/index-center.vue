@@ -109,7 +109,7 @@ transform: translateY(-50%);width: 100%;/*margin-top: -185px;*/}
       <div class="col-md-3 col sm-6 col-xs-6">
         <div class="each-col">
           <a href="javascript:void(0);"><img src="../lib/img/index-icon4.gif" alt="这里是图片" class="img user-photo"></a>
-          <p class="desc"><a href="http://www.jianshu.com/users/489e597a9cad/latest_articles">个人博客</a></p>
+          <p class="desc"><a href="blog-index.html">个人博客</a></p>
         </div>
       </div>
     </div>

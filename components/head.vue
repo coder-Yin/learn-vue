@@ -84,7 +84,7 @@ transform: scale(1.5);}
               <a href="mysite/html/personalwork/medias.html">组件</a>
             </li>
             <li>
-              <a href="#">博客</a>
+              <a href="blog-index.html">博客</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

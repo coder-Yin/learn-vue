@@ -23,35 +23,21 @@
      原先：
      
      entry: './src/app.js',
-     
      output: {
-    
       path: './dist', //文件夹生成的目录
-      
       publicPath: '../dist/', //静态文件（图片）的路径
-      
       filename: 'app.js'
-      
     },
     
     新的：
-    
     entry: {
-    
       app:['./src/app.js'],
-      
       blog_index:['./src/blog_index.js']
-      
     },
-    
     output: {
-    
       path: './dist', //文件夹生成的目录
-      
       publicPath: '../dist/', //静态文件（图片）的路径
-      
       filename: '[name].js'
-      
     }
  
   3.博客版块json文件添加；

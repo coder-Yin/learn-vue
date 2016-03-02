@@ -21,7 +21,6 @@
   2.修改webpack配置文件webpack.config.js,以支持编译多个对应的js文件;
      
      原先：
-     
      entry: './src/app.js',
      output: {
       path: './dist', //文件夹生成的目录

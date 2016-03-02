@@ -28,8 +28,10 @@
 		.author-info .author-blog a{text-decoration: none;color: #555;}
 		.mt15{margin-top: 15px;}
 		.right-tags{padding: 15px;}
-		.right-tags .title{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}
+		.index-right .title{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}
 		.tags-body .btn{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}
+		.share-wrap{padding: 15px;}
+		.share-wrap .title{margin-bottom: 10px;}
 
 		.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
 		.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
@@ -94,11 +96,15 @@
 				</div>
 
 				<div class="right-tags bg-white mt15">
-                    <div class="title">标签
-                    </div>
+                    <div class="title">标签</div>
                     <div class="tags-body">
                         <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10" v-for="item in blog_index_tags">{{item}}</a>
                     </div>
+	            </div>
+
+	            <div class="share-wrap bg-white mt15">
+	            	<div class="title">分享</div>
+	            	<share></share>
 	            </div>
 			</div>        
 		</div>
@@ -138,6 +144,12 @@ export default {
           console.log('fail' + status + "," + request);
       });
       
+  },
+  destroyed () {
+  	alert("destoryed");
+  },
+  components:{
+        share: require('./share.vue')
   },
   data () {
     return {

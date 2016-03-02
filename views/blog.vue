@@ -1,7 +1,6 @@
 <template>
     <nv-head></nv-head>
     <blog-center></blog-center>
-
 </template>
 <script>
     export default {

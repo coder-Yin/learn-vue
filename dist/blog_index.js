@@ -14585,7 +14585,7 @@
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] views/blog.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(75)
+	__vue_template__ = __webpack_require__(81)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -14615,7 +14615,6 @@
 	// <template>
 	//     <nv-head></nv-head>
 	//     <blog-center></blog-center>
-	//
 	// </template>
 	// <script>
 	exports.default = {
@@ -14638,7 +14637,7 @@
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] components/blog-index-content.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(72)
+	__vue_template__ = __webpack_require__(78)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -14691,14 +14690,14 @@
 	
 	
 	// module
-	exports.push([module.id, "\n.oh[_v-2e172e87]{overflow: hidden;}\n.bg-gray[_v-2e172e87]{background: #FAFAFA;}\n.bg-white[_v-2e172e87]{background: #fff;}\n.pd15[_v-2e172e87]{padding: 15px 0;}\n.blog-index[_v-2e172e87]{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', STHeitiSC-Light, 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;}\n.index-left h1[_v-2e172e87]{font-size: 32px;color: rgb(92, 107, 119);font-weight: 300;}\n.article-list[_v-2e172e87]{list-style: none;padding: 0;margin: 0;}\n.article-list .each-article[_v-2e172e87]{position: relative;margin-bottom: 20px;border: 1px solid rgba(0, 0, 0, 0.07);}\n.each-article .media-body[_v-2e172e87]{padding: 20px;}\n.each-article .date[_v-2e172e87]{color: rgb(119, 119, 119);font-size: 15px;line-height: 1.8;font-weight: bold;}\n.each-article .title[_v-2e172e87]{font-size: 18px;font-weight: 300;line-height: 33px;}\n.each-article .content[_v-2e172e87]{color: #7F8888;}\n.each-article .desc[_v-2e172e87]{position: absolute;bottom: 15px;left: 20px;padding: 15px 0 0 0;font-size: 16px;color: #7C7C84;line-height: 24px;}\n.each-article .desc .glyphicon[_v-2e172e87]{margin-right: 10px;}\n.each-article .media-right[_v-2e172e87]{max-width: 195px;overflow: hidden;}\n.each-article .media-right img[_v-2e172e87]{max-width: 195px;}\n@media screen and (max-width: 768px) {\n\t.each-article .desc[_v-2e172e87]{position: static;}\n}\n\n/*.index-right{padding-bottom: 9999px;margin-bottom: -9999px;}*/\n.author-info[_v-2e172e87]{padding: 25px 10px;text-align: center;}\n.author-info .img-author[_v-2e172e87]{width: 90px;height: 90px;border-radius: 50%;}\n.author-info .author-name[_v-2e172e87]{color: #555;font-size: 19px;font-weight: bold;margin-top: 15px;margin-bottom: 10px;}\n.author-info .author-name img[_v-2e172e87]{width: 24px;height: 24px;margin-left: 5px;vertical-align: middle;border-radius: 3px;}\n.author-info .author-intro[_v-2e172e87],.author-info .author-blog[_v-2e172e87]{ font-size: 12px;line-height: 24px;}\n.author-info .author-blog a[_v-2e172e87]{text-decoration: none;color: #555;}\n.mt15[_v-2e172e87]{margin-top: 15px;}\n.right-tags[_v-2e172e87]{padding: 15px;}\n.right-tags .title[_v-2e172e87]{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}\n.tags-body .btn[_v-2e172e87]{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}\n\n.pagination>li>a[_v-2e172e87], .pagination>li>span[_v-2e172e87] { border-radius: 50% !important;margin: 0 5px;}\n.pagination>.active>a[_v-2e172e87], .pagination>.active>a[_v-2e172e87]:focus, .pagination>.active>a[_v-2e172e87]:hover, .pagination>.active>span[_v-2e172e87], .pagination>.active>span[_v-2e172e87]:focus, .pagination>.active>span[_v-2e172e87]:hover{\n    background-color: #8A7DBE;\n    border-color: #8A7DBE;\n}\n\n.pagination>li>a[_v-2e172e87]:focus, .pagination>li>a[_v-2e172e87]:hover, .pagination>li>span[_v-2e172e87]:focus, .pagination>li>span[_v-2e172e87]:hover{\n    color: rgb(0, 0, 0);\n}\n\n.pagination>li>a[_v-2e172e87], .pagination>li>span[_v-2e172e87]{\n    color: rgba(41, 44, 47, 0.22);\n}\n", "", {"version":3,"sources":["/./components/blog-index-content.vue?593e9911"],"names":[],"mappings":";AACA,iBAAA,iBAAA,CAAA;AACA,sBAAA,oBAAA,CAAA;AACA,uBAAA,iBAAA,CAAA;AACA,mBAAA,gBAAA,CAAA;AACA,yBAAA,0HAAA,CAAA;AACA,4BAAA,gBAAA,yBAAA,iBAAA,CAAA;AACA,2BAAA,iBAAA,WAAA,UAAA,CAAA;AACA,yCAAA,mBAAA,oBAAA,sCAAA,CAAA;AACA,uCAAA,cAAA,CAAA;AACA,iCAAA,0BAAA,gBAAA,iBAAA,kBAAA,CAAA;AACA,kCAAA,gBAAA,iBAAA,kBAAA,CAAA;AACA,oCAAA,eAAA,CAAA;AACA,iCAAA,mBAAA,aAAA,WAAA,oBAAA,gBAAA,eAAA,kBAAA,CAAA;AACA,4CAAA,mBAAA,CAAA;AACA,wCAAA,iBAAA,iBAAA,CAAA;AACA,4CAAA,iBAAA,CAAA;AACA;CACA,iCAAA,iBAAA,CAAA;CACA;;AAEA,gEAAA;AACA,0BAAA,mBAAA,mBAAA,CAAA;AACA,sCAAA,YAAA,aAAA,mBAAA,CAAA;AACA,uCAAA,YAAA,gBAAA,kBAAA,iBAAA,oBAAA,CAAA;AACA,2CAAA,YAAA,aAAA,iBAAA,uBAAA,mBAAA,CAAA;AACA,gFAAA,gBAAA,kBAAA,CAAA;AACA,yCAAA,sBAAA,YAAA,CAAA;AACA,mBAAA,iBAAA,CAAA;AACA,yBAAA,cAAA,CAAA;AACA,gCAAA,0BAAA,iBAAA,gBAAA,YAAA,CAAA;AACA,6BAAA,iBAAA,oBAAA,kBAAA,kBAAA,CAAA;;AAEA,kEAAA,8BAAA,cAAA,CAAA;AACA;IACA,0BAAA;IACA,sBAAA;CACA;;AAEA;IACA,oBAAA;CACA;;AAEA;IACA,8BAAA;CACA","file":"blog-index-content.vue","sourcesContent":["<style scoped>\n\t\t.oh{overflow: hidden;}\n\t\t.bg-gray{background: #FAFAFA;}\n\t\t.bg-white{background: #fff;}\n\t\t.pd15{padding: 15px 0;}\n\t\t.blog-index{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', STHeitiSC-Light, 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;}\n\t\t.index-left h1{font-size: 32px;color: rgb(92, 107, 119);font-weight: 300;}\n\t\t.article-list{list-style: none;padding: 0;margin: 0;}\n\t\t.article-list .each-article{position: relative;margin-bottom: 20px;border: 1px solid rgba(0, 0, 0, 0.07);}\n\t\t.each-article .media-body{padding: 20px;}\n\t\t.each-article .date{color: rgb(119, 119, 119);font-size: 15px;line-height: 1.8;font-weight: bold;}\n\t\t.each-article .title{font-size: 18px;font-weight: 300;line-height: 33px;}\n\t\t.each-article .content{color: #7F8888;}\n\t\t.each-article .desc{position: absolute;bottom: 15px;left: 20px;padding: 15px 0 0 0;font-size: 16px;color: #7C7C84;line-height: 24px;}\n\t\t.each-article .desc .glyphicon{margin-right: 10px;}\n\t\t.each-article .media-right{max-width: 195px;overflow: hidden;}\n\t\t.each-article .media-right img{max-width: 195px;}\n\t\t@media screen and (max-width: 768px) {\n\t\t\t.each-article .desc{position: static;}\n\t\t}\n\n\t\t/*.index-right{padding-bottom: 9999px;margin-bottom: -9999px;}*/\n\t\t.author-info{padding: 25px 10px;text-align: center;}\n\t\t.author-info .img-author{width: 90px;height: 90px;border-radius: 50%;}\n\t\t.author-info .author-name{color: #555;font-size: 19px;font-weight: bold;margin-top: 15px;margin-bottom: 10px;}\n\t\t.author-info .author-name img{width: 24px;height: 24px;margin-left: 5px;vertical-align: middle;border-radius: 3px;}\n\t\t.author-info .author-intro,.author-info .author-blog{ font-size: 12px;line-height: 24px;}\n\t\t.author-info .author-blog a{text-decoration: none;color: #555;}\n\t\t.mt15{margin-top: 15px;}\n\t\t.right-tags{padding: 15px;}\n\t\t.right-tags .title{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}\n\t\t.tags-body .btn{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}\n\n\t\t.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}\n\t\t.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{\n\t\t    background-color: #8A7DBE;\n\t\t    border-color: #8A7DBE;\n\t\t}\n\n\t\t.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{\n\t\t    color: rgb(0, 0, 0);\n\t\t}\n\n\t\t.pagination>li>a, .pagination>li>span{\n\t\t    color: rgba(41, 44, 47, 0.22);\n\t\t}\n</style>\n\n<template>\n  <div class=\"container-fuild blog-index bg-gray pd15\">\n\t<div class=\"container oh\">\n\t\t<!--左侧-->\n\t\t<div class=\"col-md-9 col-sm-12 col-xs-12 index-left bg-white\">\n\t\t\t<h1>最新</h1>\n\t\t\t<ul class=\"article-list\">\n\t\t\t\t<li class=\"each-article\" v-for=\"item in blog_artciles\">\n\t\t\t\t\t<div class=\"media\">\n\t\t\t\t\t\t<div class=\"media-body\">\n\t\t\t\t\t\t\t<p class=\"date\">{{item.date}}</p>\n\t\t\t\t\t\t\t<p class=\"title\">{{item.title}}</p>\n\t\t\t\t\t\t\t<p class=\"content\">\n\t\t\t\t\t\t\t\t{{item.content}}\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\"><span class=\"glyphicon glyphicon-folder-open\"></span>{{item.desc}}</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\">\n\t\t\t\t\t\t\t<img v-bind:src=item.img alt=\"文章图片\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<ul class=\"pagination\">\n\t\t\t    <li class=\"disabled\"><a href=\"javascript:void(0);\" rel=\"prev\">«</a></li>\n\t\t\t    <li class=\"active\"><a href=\"javascript:void(0);\">1</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">2</a></li>\n\t\t\t    <li><span>3</span></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">4</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">5</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\" rel=\"next\">»</a></li>\n\t\t\t</ul>\n\n\t\t</div>\n\t\t<!--end 左侧-->\n\t\t<!--右侧-->\n\t\t<div class=\"col-md-3 hidden-sm hidden-xs\">\n\t\t\t<div class=\"index-right\">\n\t\t\t\t<div class=\"author-info bg-white\">\n\t\t\t\t\t<img src=\"../lib/img/blog/author.jpg\" alt=\"作者头像\" class=\"img-author\">\n\t\t\t\t\t<div class=\"author-name\">殷晓飞<a href=\"http://weibo.com/2684694903/profile?topnav=1&wvr=6&is_all=1\" target=\"_blank\"><img src=\"../lib/img/blog/weibo.png\" alt=\"微博图片\"></a></div>\n\t\t\t\t\t<div class=\"author-intro\">一个有情怀的前端攻城狮。</div>\n\t\t\t\t\t<div class=\"author-blog\">个人站点：<a href=\"http://www.coderyin.com/\" target=\"_blank\">http://www.coderyin.com/</a></div>\n\t\t\t\t\t<div class=\"author-blog\">简书链接：<a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" target=\"_blank\">点击此处</a></div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"right-tags bg-white mt15\">\n                    <div class=\"title\">标签\n                    </div>\n                    <div class=\"tags-body\">\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" v-for=\"item in blog_index_tags\">{{item}}</a>\n                    </div>\n\t            </div>\n\t\t\t</div>        \n\t\t</div>\n\t\t<!--end 右侧-->\n\t</div>\n</div>\n</template>\n\n<script>\nexport default {\n  ready: function() {\n\n  \t  //文章列表\n      this.$http.get('blog_articles.json', function(d) {\n      \t\t\n      \t\t//判断接口是否请求成功\n      \t\tif(d.code!=200){\n      \t\t\talert(d.msg);\n      \t\t\treturn false;\n      \t\t}\n      \t\t//设置数据\n            this.$set('blog_artciles', d.data.article_list);\n      }).error(function(data, status, request) {\n          console.log('fail' + status + \",\" + request);\n      });\n\n      //文章标签\n      this.$http.get('blog_index_tags.json', function(d) {\n      \t\t//判断接口是否请求成功\n      \t\tif(d.code!=200){\n      \t\t\talert(d.msg);\n      \t\t\treturn false;\n      \t\t}\n      \t\t//设置数据\n            this.$set('blog_index_tags', d.data.tags);\n      }).error(function(data, status, request) {\n          console.log('fail' + status + \",\" + request);\n      });\n      \n  },\n  data () {\n    return {\n      blog_artciles: [],\n      blog_index_tags: []\n    }\n  },\n  methods:{\n      hello: function(){\n        alert(\"hello world\");\n      }\n  }\n}\n</script>"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n.oh[_v-2e172e87]{overflow: hidden;}\n.bg-gray[_v-2e172e87]{background: #FAFAFA;}\n.bg-white[_v-2e172e87]{background: #fff;}\n.pd15[_v-2e172e87]{padding: 15px 0;}\n.blog-index[_v-2e172e87]{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', STHeitiSC-Light, 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;}\n.index-left h1[_v-2e172e87]{font-size: 32px;color: rgb(92, 107, 119);font-weight: 300;}\n.article-list[_v-2e172e87]{list-style: none;padding: 0;margin: 0;}\n.article-list .each-article[_v-2e172e87]{position: relative;margin-bottom: 20px;border: 1px solid rgba(0, 0, 0, 0.07);}\n.each-article .media-body[_v-2e172e87]{padding: 20px;}\n.each-article .date[_v-2e172e87]{color: rgb(119, 119, 119);font-size: 15px;line-height: 1.8;font-weight: bold;}\n.each-article .title[_v-2e172e87]{font-size: 18px;font-weight: 300;line-height: 33px;}\n.each-article .content[_v-2e172e87]{color: #7F8888;}\n.each-article .desc[_v-2e172e87]{position: absolute;bottom: 15px;left: 20px;padding: 15px 0 0 0;font-size: 16px;color: #7C7C84;line-height: 24px;}\n.each-article .desc .glyphicon[_v-2e172e87]{margin-right: 10px;}\n.each-article .media-right[_v-2e172e87]{max-width: 195px;overflow: hidden;}\n.each-article .media-right img[_v-2e172e87]{max-width: 195px;}\n@media screen and (max-width: 768px) {\n\t.each-article .desc[_v-2e172e87]{position: static;}\n}\n\n/*.index-right{padding-bottom: 9999px;margin-bottom: -9999px;}*/\n.author-info[_v-2e172e87]{padding: 25px 10px;text-align: center;}\n.author-info .img-author[_v-2e172e87]{width: 90px;height: 90px;border-radius: 50%;}\n.author-info .author-name[_v-2e172e87]{color: #555;font-size: 19px;font-weight: bold;margin-top: 15px;margin-bottom: 10px;}\n.author-info .author-name img[_v-2e172e87]{width: 24px;height: 24px;margin-left: 5px;vertical-align: middle;border-radius: 3px;}\n.author-info .author-intro[_v-2e172e87],.author-info .author-blog[_v-2e172e87]{ font-size: 12px;line-height: 24px;}\n.author-info .author-blog a[_v-2e172e87]{text-decoration: none;color: #555;}\n.mt15[_v-2e172e87]{margin-top: 15px;}\n.right-tags[_v-2e172e87]{padding: 15px;}\n.index-right .title[_v-2e172e87]{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}\n.tags-body .btn[_v-2e172e87]{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}\n.share-wrap[_v-2e172e87]{padding: 15px;}\n.share-wrap .title[_v-2e172e87]{margin-bottom: 10px;}\n\n.pagination>li>a[_v-2e172e87], .pagination>li>span[_v-2e172e87] { border-radius: 50% !important;margin: 0 5px;}\n.pagination>.active>a[_v-2e172e87], .pagination>.active>a[_v-2e172e87]:focus, .pagination>.active>a[_v-2e172e87]:hover, .pagination>.active>span[_v-2e172e87], .pagination>.active>span[_v-2e172e87]:focus, .pagination>.active>span[_v-2e172e87]:hover{\n    background-color: #8A7DBE;\n    border-color: #8A7DBE;\n}\n\n.pagination>li>a[_v-2e172e87]:focus, .pagination>li>a[_v-2e172e87]:hover, .pagination>li>span[_v-2e172e87]:focus, .pagination>li>span[_v-2e172e87]:hover{\n    color: rgb(0, 0, 0);\n}\n\n.pagination>li>a[_v-2e172e87], .pagination>li>span[_v-2e172e87]{\n    color: rgba(41, 44, 47, 0.22);\n}\n", "", {"version":3,"sources":["/./components/blog-index-content.vue?1c0058a2"],"names":[],"mappings":";AACA,iBAAA,iBAAA,CAAA;AACA,sBAAA,oBAAA,CAAA;AACA,uBAAA,iBAAA,CAAA;AACA,mBAAA,gBAAA,CAAA;AACA,yBAAA,0HAAA,CAAA;AACA,4BAAA,gBAAA,yBAAA,iBAAA,CAAA;AACA,2BAAA,iBAAA,WAAA,UAAA,CAAA;AACA,yCAAA,mBAAA,oBAAA,sCAAA,CAAA;AACA,uCAAA,cAAA,CAAA;AACA,iCAAA,0BAAA,gBAAA,iBAAA,kBAAA,CAAA;AACA,kCAAA,gBAAA,iBAAA,kBAAA,CAAA;AACA,oCAAA,eAAA,CAAA;AACA,iCAAA,mBAAA,aAAA,WAAA,oBAAA,gBAAA,eAAA,kBAAA,CAAA;AACA,4CAAA,mBAAA,CAAA;AACA,wCAAA,iBAAA,iBAAA,CAAA;AACA,4CAAA,iBAAA,CAAA;AACA;CACA,iCAAA,iBAAA,CAAA;CACA;;AAEA,gEAAA;AACA,0BAAA,mBAAA,mBAAA,CAAA;AACA,sCAAA,YAAA,aAAA,mBAAA,CAAA;AACA,uCAAA,YAAA,gBAAA,kBAAA,iBAAA,oBAAA,CAAA;AACA,2CAAA,YAAA,aAAA,iBAAA,uBAAA,mBAAA,CAAA;AACA,gFAAA,gBAAA,kBAAA,CAAA;AACA,yCAAA,sBAAA,YAAA,CAAA;AACA,mBAAA,iBAAA,CAAA;AACA,yBAAA,cAAA,CAAA;AACA,iCAAA,0BAAA,iBAAA,gBAAA,YAAA,CAAA;AACA,6BAAA,iBAAA,oBAAA,kBAAA,kBAAA,CAAA;AACA,yBAAA,cAAA,CAAA;AACA,gCAAA,oBAAA,CAAA;;AAEA,kEAAA,8BAAA,cAAA,CAAA;AACA;IACA,0BAAA;IACA,sBAAA;CACA;;AAEA;IACA,oBAAA;CACA;;AAEA;IACA,8BAAA;CACA","file":"blog-index-content.vue","sourcesContent":["<style scoped>\n\t\t.oh{overflow: hidden;}\n\t\t.bg-gray{background: #FAFAFA;}\n\t\t.bg-white{background: #fff;}\n\t\t.pd15{padding: 15px 0;}\n\t\t.blog-index{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', STHeitiSC-Light, 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;}\n\t\t.index-left h1{font-size: 32px;color: rgb(92, 107, 119);font-weight: 300;}\n\t\t.article-list{list-style: none;padding: 0;margin: 0;}\n\t\t.article-list .each-article{position: relative;margin-bottom: 20px;border: 1px solid rgba(0, 0, 0, 0.07);}\n\t\t.each-article .media-body{padding: 20px;}\n\t\t.each-article .date{color: rgb(119, 119, 119);font-size: 15px;line-height: 1.8;font-weight: bold;}\n\t\t.each-article .title{font-size: 18px;font-weight: 300;line-height: 33px;}\n\t\t.each-article .content{color: #7F8888;}\n\t\t.each-article .desc{position: absolute;bottom: 15px;left: 20px;padding: 15px 0 0 0;font-size: 16px;color: #7C7C84;line-height: 24px;}\n\t\t.each-article .desc .glyphicon{margin-right: 10px;}\n\t\t.each-article .media-right{max-width: 195px;overflow: hidden;}\n\t\t.each-article .media-right img{max-width: 195px;}\n\t\t@media screen and (max-width: 768px) {\n\t\t\t.each-article .desc{position: static;}\n\t\t}\n\n\t\t/*.index-right{padding-bottom: 9999px;margin-bottom: -9999px;}*/\n\t\t.author-info{padding: 25px 10px;text-align: center;}\n\t\t.author-info .img-author{width: 90px;height: 90px;border-radius: 50%;}\n\t\t.author-info .author-name{color: #555;font-size: 19px;font-weight: bold;margin-top: 15px;margin-bottom: 10px;}\n\t\t.author-info .author-name img{width: 24px;height: 24px;margin-left: 5px;vertical-align: middle;border-radius: 3px;}\n\t\t.author-info .author-intro,.author-info .author-blog{ font-size: 12px;line-height: 24px;}\n\t\t.author-info .author-blog a{text-decoration: none;color: #555;}\n\t\t.mt15{margin-top: 15px;}\n\t\t.right-tags{padding: 15px;}\n\t\t.index-right .title{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}\n\t\t.tags-body .btn{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}\n\t\t.share-wrap{padding: 15px;}\n\t\t.share-wrap .title{margin-bottom: 10px;}\n\n\t\t.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}\n\t\t.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{\n\t\t    background-color: #8A7DBE;\n\t\t    border-color: #8A7DBE;\n\t\t}\n\n\t\t.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{\n\t\t    color: rgb(0, 0, 0);\n\t\t}\n\n\t\t.pagination>li>a, .pagination>li>span{\n\t\t    color: rgba(41, 44, 47, 0.22);\n\t\t}\n</style>\n\n<template>\n  <div class=\"container-fuild blog-index bg-gray pd15\">\n\t<div class=\"container oh\">\n\t\t<!--左侧-->\n\t\t<div class=\"col-md-9 col-sm-12 col-xs-12 index-left bg-white\">\n\t\t\t<h1>最新</h1>\n\t\t\t<ul class=\"article-list\">\n\t\t\t\t<li class=\"each-article\" v-for=\"item in blog_artciles\">\n\t\t\t\t\t<div class=\"media\">\n\t\t\t\t\t\t<div class=\"media-body\">\n\t\t\t\t\t\t\t<p class=\"date\">{{item.date}}</p>\n\t\t\t\t\t\t\t<p class=\"title\">{{item.title}}</p>\n\t\t\t\t\t\t\t<p class=\"content\">\n\t\t\t\t\t\t\t\t{{item.content}}\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\"><span class=\"glyphicon glyphicon-folder-open\"></span>{{item.desc}}</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\">\n\t\t\t\t\t\t\t<img v-bind:src=item.img alt=\"文章图片\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<ul class=\"pagination\">\n\t\t\t    <li class=\"disabled\"><a href=\"javascript:void(0);\" rel=\"prev\">«</a></li>\n\t\t\t    <li class=\"active\"><a href=\"javascript:void(0);\">1</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">2</a></li>\n\t\t\t    <li><span>3</span></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">4</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">5</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\" rel=\"next\">»</a></li>\n\t\t\t</ul>\n\n\t\t</div>\n\t\t<!--end 左侧-->\n\t\t<!--右侧-->\n\t\t<div class=\"col-md-3 hidden-sm hidden-xs\">\n\t\t\t<div class=\"index-right\">\n\t\t\t\t<div class=\"author-info bg-white\">\n\t\t\t\t\t<img src=\"../lib/img/blog/author.jpg\" alt=\"作者头像\" class=\"img-author\">\n\t\t\t\t\t<div class=\"author-name\">殷晓飞<a href=\"http://weibo.com/2684694903/profile?topnav=1&wvr=6&is_all=1\" target=\"_blank\"><img src=\"../lib/img/blog/weibo.png\" alt=\"微博图片\"></a></div>\n\t\t\t\t\t<div class=\"author-intro\">一个有情怀的前端攻城狮。</div>\n\t\t\t\t\t<div class=\"author-blog\">个人站点：<a href=\"http://www.coderyin.com/\" target=\"_blank\">http://www.coderyin.com/</a></div>\n\t\t\t\t\t<div class=\"author-blog\">简书链接：<a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" target=\"_blank\">点击此处</a></div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"right-tags bg-white mt15\">\n                    <div class=\"title\">标签</div>\n                    <div class=\"tags-body\">\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" v-for=\"item in blog_index_tags\">{{item}}</a>\n                    </div>\n\t            </div>\n\n\t            <div class=\"share-wrap bg-white mt15\">\n\t            \t<div class=\"title\">分享</div>\n\t            \t<share></share>\n\t            </div>\n\t\t\t</div>        \n\t\t</div>\n\t\t<!--end 右侧-->\n\t</div>\n</div>\n</template>\n\n<script>\nexport default {\n  ready: function() {\n\n  \t  //文章列表\n      this.$http.get('blog_articles.json', function(d) {\n      \t\t\n      \t\t//判断接口是否请求成功\n      \t\tif(d.code!=200){\n      \t\t\talert(d.msg);\n      \t\t\treturn false;\n      \t\t}\n      \t\t//设置数据\n            this.$set('blog_artciles', d.data.article_list);\n      }).error(function(data, status, request) {\n          console.log('fail' + status + \",\" + request);\n      });\n\n      //文章标签\n      this.$http.get('blog_index_tags.json', function(d) {\n      \t\t//判断接口是否请求成功\n      \t\tif(d.code!=200){\n      \t\t\talert(d.msg);\n      \t\t\treturn false;\n      \t\t}\n      \t\t//设置数据\n            this.$set('blog_index_tags', d.data.tags);\n      }).error(function(data, status, request) {\n          console.log('fail' + status + \",\" + request);\n      });\n      \n  },\n  destroyed () {\n  \talert(\"destoryed\");\n  },\n  components:{\n        share: require('./share.vue')\n  },\n  data () {\n    return {\n      blog_artciles: [],\n      blog_index_tags: []\n    }\n  },\n  methods:{\n      hello: function(){\n        alert(\"hello world\");\n      }\n  }\n}\n</script>"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
 
 /***/ },
 /* 71 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -14735,8 +14734,10 @@
 	// 		.author-info .author-blog a{text-decoration: none;color: #555;}
 	// 		.mt15{margin-top: 15px;}
 	// 		.right-tags{padding: 15px;}
-	// 		.right-tags .title{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}
+	// 		.index-right .title{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}
 	// 		.tags-body .btn{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}
+	// 		.share-wrap{padding: 15px;}
+	// 		.share-wrap .title{margin-bottom: 10px;}
 	//
 	// 		.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
 	// 		.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
@@ -14801,11 +14802,15 @@
 	// 				</div>
 	//
 	// 				<div class="right-tags bg-white mt15">
-	//                     <div class="title">标签
-	//                     </div>
+	//                     <div class="title">标签</div>
 	//                     <div class="tags-body">
 	//                         <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10" v-for="item in blog_index_tags">{{item}}</a>
 	//                     </div>
+	// 	            </div>
+	//
+	// 	            <div class="share-wrap bg-white mt15">
+	// 	            	<div class="title">分享</div>
+	// 	            	<share></share>
 	// 	            </div>
 	// 			</div>       
 	// 		</div>
@@ -14845,6 +14850,13 @@
 	            console.log('fail' + status + "," + request);
 	        });
 	    },
+	    destroyed: function destroyed() {
+	        alert("destoryed");
+	    },
+	
+	    components: {
+	        share: __webpack_require__(72)
+	    },
 	    data: function data() {
 	        return {
 	            blog_artciles: [],
@@ -14865,25 +14877,174 @@
 /* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "\n  <div class=\"container-fuild blog-index bg-gray pd15\" _v-2e172e87=\"\">\n\t<div class=\"container oh\" _v-2e172e87=\"\">\n\t\t<!--左侧-->\n\t\t<div class=\"col-md-9 col-sm-12 col-xs-12 index-left bg-white\" _v-2e172e87=\"\">\n\t\t\t<h1 _v-2e172e87=\"\">最新</h1>\n\t\t\t<ul class=\"article-list\" _v-2e172e87=\"\">\n\t\t\t\t<li class=\"each-article\" v-for=\"item in blog_artciles\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"media\" _v-2e172e87=\"\">\n\t\t\t\t\t\t<div class=\"media-body\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<p class=\"date\" _v-2e172e87=\"\">{{item.date}}</p>\n\t\t\t\t\t\t\t<p class=\"title\" _v-2e172e87=\"\">{{item.title}}</p>\n\t\t\t\t\t\t\t<p class=\"content\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t\t{{item.content}}\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\" _v-2e172e87=\"\"><span class=\"glyphicon glyphicon-folder-open\" _v-2e172e87=\"\"></span>{{item.desc}}</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<img v-bind:src=\"item.img\" alt=\"文章图片\" _v-2e172e87=\"\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<ul class=\"pagination\" _v-2e172e87=\"\">\n\t\t\t    <li class=\"disabled\" _v-2e172e87=\"\"><a href=\"javascript:void(0);\" rel=\"prev\" _v-2e172e87=\"\">«</a></li>\n\t\t\t    <li class=\"active\" _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">1</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">2</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><span _v-2e172e87=\"\">3</span></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">4</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">5</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" rel=\"next\" _v-2e172e87=\"\">»</a></li>\n\t\t\t</ul>\n\n\t\t</div>\n\t\t<!--end 左侧-->\n\t\t<!--右侧-->\n\t\t<div class=\"col-md-3 hidden-sm hidden-xs\" _v-2e172e87=\"\">\n\t\t\t<div class=\"index-right\" _v-2e172e87=\"\">\n\t\t\t\t<div class=\"author-info bg-white\" _v-2e172e87=\"\">\n\t\t\t\t\t<img src=\"" + __webpack_require__(73) + "\" alt=\"作者头像\" class=\"img-author\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"author-name\" _v-2e172e87=\"\">殷晓飞<a href=\"http://weibo.com/2684694903/profile?topnav=1&amp;wvr=6&amp;is_all=1\" target=\"_blank\" _v-2e172e87=\"\"><img src=\"" + __webpack_require__(74) + "\" alt=\"微博图片\" _v-2e172e87=\"\"></a></div>\n\t\t\t\t\t<div class=\"author-intro\" _v-2e172e87=\"\">一个有情怀的前端攻城狮。</div>\n\t\t\t\t\t<div class=\"author-blog\" _v-2e172e87=\"\">个人站点：<a href=\"http://www.coderyin.com/\" target=\"_blank\" _v-2e172e87=\"\">http://www.coderyin.com/</a></div>\n\t\t\t\t\t<div class=\"author-blog\" _v-2e172e87=\"\">简书链接：<a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" target=\"_blank\" _v-2e172e87=\"\">点击此处</a></div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"right-tags bg-white mt15\" _v-2e172e87=\"\">\n                    <div class=\"title\" _v-2e172e87=\"\">标签\n                    </div>\n                    <div class=\"tags-body\" _v-2e172e87=\"\">\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" v-for=\"item in blog_index_tags\" _v-2e172e87=\"\">{{item}}</a>\n                    </div>\n\t            </div>\n\t\t\t</div>        \n\t\t</div>\n\t\t<!--end 右侧-->\n\t</div>\n</div>\n";
+	var __vue_script__, __vue_template__
+	__webpack_require__(73)
+	__vue_script__ = __webpack_require__(76)
+	if (__vue_script__ &&
+	    __vue_script__.__esModule &&
+	    Object.keys(__vue_script__).length > 1) {
+	  console.warn("[vue-loader] components/share.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(77)
+	module.exports = __vue_script__ || {}
+	if (module.exports.__esModule) module.exports = module.exports.default
+	if (__vue_template__) {
+	(typeof module.exports === "function" ? (module.exports.options || (module.exports.options = {})) : module.exports).template = __vue_template__
+	}
+	if (false) {(function () {  module.hot.accept()
+	  var hotAPI = require("vue-hot-reload-api")
+	  hotAPI.install(require("vue"), true)
+	  if (!hotAPI.compatible) return
+	  var id = "/Users/mac/Desktop/study/vuejs/webpack_vuejs/learn-vue/components/share.vue"
+	  if (!module.hot.data) {
+	    hotAPI.createRecord(id, module.exports)
+	  } else {
+	    hotAPI.update(id, module.exports, __vue_template__)
+	  }
+	})()}
 
 /***/ },
 /* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "author.jpg?89a96ec3ac796f22439f1dee99e26829";
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(74);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(10)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-1980939b&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./share.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js?sourceMap!./../node_modules/vue-loader/lib/style-rewriter.js?id=_v-1980939b&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=style&index=0!./share.vue");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
 
 /***/ },
 /* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "weibo.png?be9c158a6736abed07cd6d4bee4598a0";
+	exports = module.exports = __webpack_require__(9)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "\n.bdshare_dialog_box[_v-1980939b]{min-width: 310px;}\n.g-share a[_v-1980939b], .g-share.bdshare-button-style0-16 a[_v-1980939b]{ \n\tdisplay: inline-block;\n\twidth:36px;\n\theight: 36px;\n\tbackground: url(" + __webpack_require__(75) + ") no-repeat;\n\tmargin: 0px 0px 0px 10px;\n}\n.g-share.bdshare-button-style0-16 .bds_qzone[_v-1980939b]{background-position:  -1px -1px;}\n.g-share.bdshare-button-style0-16 .bds_weixin[_v-1980939b]{background-position:  -50px -1px;}\n.g-share.bdshare-button-style0-16 .bds_sqq[_v-1980939b]{background-position:  -99px -1px;}\n.g-share.bdshare-button-style0-16 .bds_tsina[_v-1980939b]{background-position:  -149px -1px;}\n.g-share.bdshare-button-style0-16 .bds_more[_v-1980939b]{background-position:  -203px -1px;}\n", "", {"version":3,"sources":["/./components/share.vue?b96a14be"],"names":[],"mappings":";AACA,iCAAA,iBAAA,CAAA;AACA;CACA,sBAAA;CACA,WAAA;CACA,aAAA;CACA,oDAAA;CACA,yBAAA;CACA;AACA,0DAAA,gCAAA,CAAA;AACA,2DAAA,iCAAA,CAAA;AACA,wDAAA,iCAAA,CAAA;AACA,0DAAA,kCAAA,CAAA;AACA,yDAAA,kCAAA,CAAA","file":"share.vue","sourcesContent":["<style scoped>\n\t.bdshare_dialog_box{min-width: 310px;}\n\t.g-share a, .g-share.bdshare-button-style0-16 a{ \n\t\tdisplay: inline-block;\n\t\twidth:36px;\n\t\theight: 36px;\n\t\tbackground: url(../lib/img/g-share-ico.png) no-repeat;\n\t\tmargin: 0px 0px 0px 10px;\n\t}\n\t.g-share.bdshare-button-style0-16 .bds_qzone{background-position:  -1px -1px;}\n\t.g-share.bdshare-button-style0-16 .bds_weixin{background-position:  -50px -1px;}\n\t.g-share.bdshare-button-style0-16 .bds_sqq{background-position:  -99px -1px;}\n\t.g-share.bdshare-button-style0-16 .bds_tsina{background-position:  -149px -1px;}\n\t.g-share.bdshare-button-style0-16 .bds_more{background-position:  -203px -1px;}\n</style>\n\n<template>\n\t<div class=\"g-share bdsharebuttonbox bdshare-button-style0-16\" data-tag=\"pageSharePreview\" data-bd-bind=\"1456897676743\">\n\t\t<a href=\"#\" class=\"bds_qzone\" data-cmd=\"qzone\" title=\"分享到QQ空间\"></a>\n\t\t<a href=\"#\" class=\"bds_weixin\" data-cmd=\"weixin\" title=\"分享到微信\"></a>\n\t\t<a href=\"#\" class=\"bds_sqq\" data-cmd=\"sqq\" title=\"分享到QQ好友\"></a>\n\t\t<a href=\"#\" class=\"bds_tsina\" data-cmd=\"tsina\" title=\"分享到新浪微博\"></a>\n\t</div>\n</template>\n\n<script>\nexport default {\n  ready: function() {\n      window._bd_share_config = {\n\t\t\tcommon : {\n\t\t\t\tbdText : '自定义分享内容',\t\n\t\t\t\tbdDesc : '自定义分享摘要',\t\n\t\t\t\tbdUrl : '自定义分享url地址', \t\n\t\t\t\tbdPic : '自定义分享图片'\n\t\t\t},\n\t\t\tshare : [{\n\t\t\t\t\"bdSize\" : 16\n\t\t\t}],\n\t\t\tslide : [{\t   \n\t\t\t\tbdImg : 0,\n\t\t\t\tbdPos : \"right\",\n\t\t\t\tbdTop : 100\n\t\t\t}],\n\t\t\timage : [{\n\t\t\t\tviewType : 'list',\n\t\t\t\tviewPos : 'top',\n\t\t\t\tviewColor : 'black',\n\t\t\t\tviewSize : '16',\n\t\t\t\tviewList : ['qzone','tsina','huaban','tqq','renren']\n\t\t\t}],\n\t\t\tselectShare : [{\n\t\t\t\t\"bdselectMiniList\" : ['qzone','tqq','kaixin001','bdxc','tqf']\n\t\t\t}]\n\t\t}\n      \n  }\n}\n</script>"],"sourceRoot":"webpack://"}]);
+	
+	// exports
+
 
 /***/ },
 /* 75 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "g-share-ico.png?f62e249744567628abc073610b4927a1";
+
+/***/ },
+/* 76 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<nv-head></nv-head>\n<blog-center></blog-center>\n\n";
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+	// <style scoped>
+	// 	.bdshare_dialog_box{min-width: 310px;}
+	// 	.g-share a, .g-share.bdshare-button-style0-16 a{
+	// 		display: inline-block;
+	// 		width:36px;
+	// 		height: 36px;
+	// 		background: url(../lib/img/g-share-ico.png) no-repeat;
+	// 		margin: 0px 0px 0px 10px;
+	// 	}
+	// 	.g-share.bdshare-button-style0-16 .bds_qzone{background-position:  -1px -1px;}
+	// 	.g-share.bdshare-button-style0-16 .bds_weixin{background-position:  -50px -1px;}
+	// 	.g-share.bdshare-button-style0-16 .bds_sqq{background-position:  -99px -1px;}
+	// 	.g-share.bdshare-button-style0-16 .bds_tsina{background-position:  -149px -1px;}
+	// 	.g-share.bdshare-button-style0-16 .bds_more{background-position:  -203px -1px;}
+	// </style>
+	//
+	// <template>
+	// 	<div class="g-share bdsharebuttonbox bdshare-button-style0-16" data-tag="pageSharePreview" data-bd-bind="1456897676743">
+	// 		<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+	// 		<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	// 		<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	// 		<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	// 	</div>
+	// </template>
+	//
+	// <script>
+	exports.default = {
+		ready: function ready() {
+			window._bd_share_config = {
+				common: {
+					bdText: '自定义分享内容',
+					bdDesc: '自定义分享摘要',
+					bdUrl: '自定义分享url地址',
+					bdPic: '自定义分享图片'
+				},
+				share: [{
+					"bdSize": 16
+				}],
+				slide: [{
+					bdImg: 0,
+					bdPos: "right",
+					bdTop: 100
+				}],
+				image: [{
+					viewType: 'list',
+					viewPos: 'top',
+					viewColor: 'black',
+					viewSize: '16',
+					viewList: ['qzone', 'tsina', 'huaban', 'tqq', 'renren']
+				}],
+				selectShare: [{
+					"bdselectMiniList": ['qzone', 'tqq', 'kaixin001', 'bdxc', 'tqf']
+				}]
+			};
+		}
+	};
+	// </script>
+	/* generated by vue-loader */
+
+/***/ },
+/* 77 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<div class=\"g-share bdsharebuttonbox bdshare-button-style0-16\" data-tag=\"pageSharePreview\" data-bd-bind=\"1456897676743\" _v-1980939b=\"\">\n\t<a href=\"#\" class=\"bds_qzone\" data-cmd=\"qzone\" title=\"分享到QQ空间\" _v-1980939b=\"\"></a>\n\t<a href=\"#\" class=\"bds_weixin\" data-cmd=\"weixin\" title=\"分享到微信\" _v-1980939b=\"\"></a>\n\t<a href=\"#\" class=\"bds_sqq\" data-cmd=\"sqq\" title=\"分享到QQ好友\" _v-1980939b=\"\"></a>\n\t<a href=\"#\" class=\"bds_tsina\" data-cmd=\"tsina\" title=\"分享到新浪微博\" _v-1980939b=\"\"></a>\n</div>\n";
+
+/***/ },
+/* 78 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = "\n  <div class=\"container-fuild blog-index bg-gray pd15\" _v-2e172e87=\"\">\n\t<div class=\"container oh\" _v-2e172e87=\"\">\n\t\t<!--左侧-->\n\t\t<div class=\"col-md-9 col-sm-12 col-xs-12 index-left bg-white\" _v-2e172e87=\"\">\n\t\t\t<h1 _v-2e172e87=\"\">最新</h1>\n\t\t\t<ul class=\"article-list\" _v-2e172e87=\"\">\n\t\t\t\t<li class=\"each-article\" v-for=\"item in blog_artciles\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"media\" _v-2e172e87=\"\">\n\t\t\t\t\t\t<div class=\"media-body\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<p class=\"date\" _v-2e172e87=\"\">{{item.date}}</p>\n\t\t\t\t\t\t\t<p class=\"title\" _v-2e172e87=\"\">{{item.title}}</p>\n\t\t\t\t\t\t\t<p class=\"content\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t\t{{item.content}}\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\" _v-2e172e87=\"\"><span class=\"glyphicon glyphicon-folder-open\" _v-2e172e87=\"\"></span>{{item.desc}}</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<img v-bind:src=\"item.img\" alt=\"文章图片\" _v-2e172e87=\"\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<ul class=\"pagination\" _v-2e172e87=\"\">\n\t\t\t    <li class=\"disabled\" _v-2e172e87=\"\"><a href=\"javascript:void(0);\" rel=\"prev\" _v-2e172e87=\"\">«</a></li>\n\t\t\t    <li class=\"active\" _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">1</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">2</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><span _v-2e172e87=\"\">3</span></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">4</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">5</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" rel=\"next\" _v-2e172e87=\"\">»</a></li>\n\t\t\t</ul>\n\n\t\t</div>\n\t\t<!--end 左侧-->\n\t\t<!--右侧-->\n\t\t<div class=\"col-md-3 hidden-sm hidden-xs\" _v-2e172e87=\"\">\n\t\t\t<div class=\"index-right\" _v-2e172e87=\"\">\n\t\t\t\t<div class=\"author-info bg-white\" _v-2e172e87=\"\">\n\t\t\t\t\t<img src=\"" + __webpack_require__(79) + "\" alt=\"作者头像\" class=\"img-author\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"author-name\" _v-2e172e87=\"\">殷晓飞<a href=\"http://weibo.com/2684694903/profile?topnav=1&amp;wvr=6&amp;is_all=1\" target=\"_blank\" _v-2e172e87=\"\"><img src=\"" + __webpack_require__(80) + "\" alt=\"微博图片\" _v-2e172e87=\"\"></a></div>\n\t\t\t\t\t<div class=\"author-intro\" _v-2e172e87=\"\">一个有情怀的前端攻城狮。</div>\n\t\t\t\t\t<div class=\"author-blog\" _v-2e172e87=\"\">个人站点：<a href=\"http://www.coderyin.com/\" target=\"_blank\" _v-2e172e87=\"\">http://www.coderyin.com/</a></div>\n\t\t\t\t\t<div class=\"author-blog\" _v-2e172e87=\"\">简书链接：<a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" target=\"_blank\" _v-2e172e87=\"\">点击此处</a></div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"right-tags bg-white mt15\" _v-2e172e87=\"\">\n                    <div class=\"title\" _v-2e172e87=\"\">标签</div>\n                    <div class=\"tags-body\" _v-2e172e87=\"\">\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" v-for=\"item in blog_index_tags\" _v-2e172e87=\"\">{{item}}</a>\n                    </div>\n\t            </div>\n\n\t            <div class=\"share-wrap bg-white mt15\" _v-2e172e87=\"\">\n\t            \t<div class=\"title\" _v-2e172e87=\"\">分享</div>\n\t            \t<share _v-2e172e87=\"\"></share>\n\t            </div>\n\t\t\t</div>        \n\t\t</div>\n\t\t<!--end 右侧-->\n\t</div>\n</div>\n";
+
+/***/ },
+/* 79 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "author.jpg?89a96ec3ac796f22439f1dee99e26829";
+
+/***/ },
+/* 80 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "weibo.png?be9c158a6736abed07cd6d4bee4598a0";
+
+/***/ },
+/* 81 */
+/***/ function(module, exports) {
+
+	module.exports = "\n<nv-head></nv-head>\n<blog-center></blog-center>\n";
 
 /***/ }
 /******/ ]);

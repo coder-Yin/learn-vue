@@ -53,48 +53,18 @@
 		<div class="col-md-9 col-sm-12 col-xs-12 index-left bg-white">
 			<h1>最新</h1>
 			<ul class="article-list">
-				<li class="each-article">
+				<li class="each-article" v-for="item in blog_artciles">
 					<div class="media">
 						<div class="media-body">
-							<p class="date">1天之前</p>
-							<p class="title">jsonp跨域实践（附其他实现跨域的方法）</p>
+							<p class="date">{{item.date}}</p>
+							<p class="title">{{item.title}}</p>
 							<p class="content">
-								面试中常常会问到如何使用jsonp跨域（jsonp跨域的原理是什么），这篇文章就给大家介绍一下相关的知识，如有不对，麻烦指出 ~
+								{{item.content}}
 							</p>
-							<p class="desc"><span class="glyphicon glyphicon-folder-open"></span>web前端系列</p>
+							<p class="desc"><span class="glyphicon glyphicon-folder-open"></span>{{item.desc}}</p>
 						</div>
 						<div class="media-right hidden-xs">
-							<img src="../lib/img/blog/pic-vue.png" alt="文章图片">
-						</div>
-					</div>
-				</li>
-				<li class="each-article">
-					<div class="media">
-						<div class="media-body">
-							<p class="date">5天之前</p>
-							<p class="title">vue.js+webpack 实践</p>
-							<p class="content">
-								随着前端的快速发展，非常多的js框架被应用到项目中。在比较了vue.js、angular.js以及react后，决定动手使用vue.js搭建一个网站当做学习，主要是想用它的组件化及路由。
-							</p>
-							<p class="desc"><span class="glyphicon glyphicon-folder-open"></span>web前端系列</p>
-						</div>
-						<div class="media-right hidden-xs">
-							<img src="../lib/img/blog/pic-cannot-be-found.png" alt="文章图片">
-						</div>
-					</div>
-				</li>
-				<li class="each-article">
-					<div class="media">
-						<div class="media-body">
-							<p class="date">大约1个月之前</p>
-							<p class="title">Lantern—无需任何配置翻墙</p>
-							<p class="content">
-								今天直奔主题，我们该如何采用最便捷的方式实现翻墙。
-							</p>
-							<p class="desc"><span class="glyphicon glyphicon-folder-open"></span>工具系列</p>
-						</div>
-						<div class="media-right hidden-xs">
-							<img src="../lib/img/blog/pic-lattern.png" alt="文章图片">
+							<img v-bind:src=item.img alt="文章图片">
 						</div>
 					</div>
 				</li>
@@ -127,10 +97,7 @@
                     <div class="title">标签
                     </div>
                     <div class="tags-body">
-                        <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10">前端</a>
-                        <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10">vue.js</a>
-                        <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10">webpack</a>
-                        <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10">工具</a>
+                        <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10" v-for="item in blog_index_tags">{{item}}</a>
                     </div>
 	            </div>
 			</div>        
@@ -141,5 +108,47 @@
 </template>
 
 <script>
+export default {
+  ready: function() {
 
+  	  //文章列表
+      this.$http.get('blog_articles.json', function(d) {
+      		
+      		//判断接口是否请求成功
+      		if(d.code!=200){
+      			alert(d.msg);
+      			return false;
+      		}
+      		//设置数据
+            this.$set('blog_artciles', d.data.article_list);
+      }).error(function(data, status, request) {
+          console.log('fail' + status + "," + request);
+      });
+
+      //文章标签
+      this.$http.get('blog_index_tags.json', function(d) {
+      		//判断接口是否请求成功
+      		if(d.code!=200){
+      			alert(d.msg);
+      			return false;
+      		}
+      		//设置数据
+            this.$set('blog_index_tags', d.data.tags);
+      }).error(function(data, status, request) {
+          console.log('fail' + status + "," + request);
+      });
+      
+  },
+  data () {
+    return {
+      blog_artciles: [],
+      blog_index_tags: []
+    }
+  },
+  methods:{
+      hello: function(){
+        alert("hello world");
+      }
+  }
+}
 </script>

@@ -14585,7 +14585,7 @@
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
 	  console.warn("[vue-loader] views/blog.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(78)
+	__vue_template__ = __webpack_require__(75)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -14691,7 +14691,7 @@
 	
 	
 	// module
-	exports.push([module.id, "\n.oh[_v-2e172e87]{overflow: hidden;}\n.bg-gray[_v-2e172e87]{background: #FAFAFA;}\n.bg-white[_v-2e172e87]{background: #fff;}\n.pd15[_v-2e172e87]{padding: 15px 0;}\n.blog-index[_v-2e172e87]{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', STHeitiSC-Light, 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;}\n.index-left h1[_v-2e172e87]{font-size: 32px;color: rgb(92, 107, 119);font-weight: 300;}\n.article-list[_v-2e172e87]{list-style: none;padding: 0;margin: 0;}\n.article-list .each-article[_v-2e172e87]{position: relative;margin-bottom: 20px;border: 1px solid rgba(0, 0, 0, 0.07);}\n.each-article .media-body[_v-2e172e87]{padding: 20px;}\n.each-article .date[_v-2e172e87]{color: rgb(119, 119, 119);font-size: 15px;line-height: 1.8;font-weight: bold;}\n.each-article .title[_v-2e172e87]{font-size: 18px;font-weight: 300;line-height: 33px;}\n.each-article .content[_v-2e172e87]{color: #7F8888;}\n.each-article .desc[_v-2e172e87]{position: absolute;bottom: 15px;left: 20px;padding: 15px 0 0 0;font-size: 16px;color: #7C7C84;line-height: 24px;}\n.each-article .desc .glyphicon[_v-2e172e87]{margin-right: 10px;}\n.each-article .media-right[_v-2e172e87]{max-width: 195px;overflow: hidden;}\n.each-article .media-right img[_v-2e172e87]{max-width: 195px;}\n@media screen and (max-width: 768px) {\n\t.each-article .desc[_v-2e172e87]{position: static;}\n}\n\n/*.index-right{padding-bottom: 9999px;margin-bottom: -9999px;}*/\n.author-info[_v-2e172e87]{padding: 25px 10px;text-align: center;}\n.author-info .img-author[_v-2e172e87]{width: 90px;height: 90px;border-radius: 50%;}\n.author-info .author-name[_v-2e172e87]{color: #555;font-size: 19px;font-weight: bold;margin-top: 15px;margin-bottom: 10px;}\n.author-info .author-name img[_v-2e172e87]{width: 24px;height: 24px;margin-left: 5px;vertical-align: middle;border-radius: 3px;}\n.author-info .author-intro[_v-2e172e87],.author-info .author-blog[_v-2e172e87]{ font-size: 12px;line-height: 24px;}\n.author-info .author-blog a[_v-2e172e87]{text-decoration: none;color: #555;}\n.mt15[_v-2e172e87]{margin-top: 15px;}\n.right-tags[_v-2e172e87]{padding: 15px;}\n.right-tags .title[_v-2e172e87]{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}\n.tags-body .btn[_v-2e172e87]{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}\n\n.pagination>li>a[_v-2e172e87], .pagination>li>span[_v-2e172e87] { border-radius: 50% !important;margin: 0 5px;}\n.pagination>.active>a[_v-2e172e87], .pagination>.active>a[_v-2e172e87]:focus, .pagination>.active>a[_v-2e172e87]:hover, .pagination>.active>span[_v-2e172e87], .pagination>.active>span[_v-2e172e87]:focus, .pagination>.active>span[_v-2e172e87]:hover{\n    background-color: #8A7DBE;\n    border-color: #8A7DBE;\n}\n\n.pagination>li>a[_v-2e172e87]:focus, .pagination>li>a[_v-2e172e87]:hover, .pagination>li>span[_v-2e172e87]:focus, .pagination>li>span[_v-2e172e87]:hover{\n    color: rgb(0, 0, 0);\n}\n\n.pagination>li>a[_v-2e172e87], .pagination>li>span[_v-2e172e87]{\n    color: rgba(41, 44, 47, 0.22);\n}\n", "", {"version":3,"sources":["/./components/blog-index-content.vue?63f23114"],"names":[],"mappings":";AACA,iBAAA,iBAAA,CAAA;AACA,sBAAA,oBAAA,CAAA;AACA,uBAAA,iBAAA,CAAA;AACA,mBAAA,gBAAA,CAAA;AACA,yBAAA,0HAAA,CAAA;AACA,4BAAA,gBAAA,yBAAA,iBAAA,CAAA;AACA,2BAAA,iBAAA,WAAA,UAAA,CAAA;AACA,yCAAA,mBAAA,oBAAA,sCAAA,CAAA;AACA,uCAAA,cAAA,CAAA;AACA,iCAAA,0BAAA,gBAAA,iBAAA,kBAAA,CAAA;AACA,kCAAA,gBAAA,iBAAA,kBAAA,CAAA;AACA,oCAAA,eAAA,CAAA;AACA,iCAAA,mBAAA,aAAA,WAAA,oBAAA,gBAAA,eAAA,kBAAA,CAAA;AACA,4CAAA,mBAAA,CAAA;AACA,wCAAA,iBAAA,iBAAA,CAAA;AACA,4CAAA,iBAAA,CAAA;AACA;CACA,iCAAA,iBAAA,CAAA;CACA;;AAEA,gEAAA;AACA,0BAAA,mBAAA,mBAAA,CAAA;AACA,sCAAA,YAAA,aAAA,mBAAA,CAAA;AACA,uCAAA,YAAA,gBAAA,kBAAA,iBAAA,oBAAA,CAAA;AACA,2CAAA,YAAA,aAAA,iBAAA,uBAAA,mBAAA,CAAA;AACA,gFAAA,gBAAA,kBAAA,CAAA;AACA,yCAAA,sBAAA,YAAA,CAAA;AACA,mBAAA,iBAAA,CAAA;AACA,yBAAA,cAAA,CAAA;AACA,gCAAA,0BAAA,iBAAA,gBAAA,YAAA,CAAA;AACA,6BAAA,iBAAA,oBAAA,kBAAA,kBAAA,CAAA;;AAEA,kEAAA,8BAAA,cAAA,CAAA;AACA;IACA,0BAAA;IACA,sBAAA;CACA;;AAEA;IACA,oBAAA;CACA;;AAEA;IACA,8BAAA;CACA","file":"blog-index-content.vue","sourcesContent":["<style scoped>\n\t\t.oh{overflow: hidden;}\n\t\t.bg-gray{background: #FAFAFA;}\n\t\t.bg-white{background: #fff;}\n\t\t.pd15{padding: 15px 0;}\n\t\t.blog-index{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', STHeitiSC-Light, 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;}\n\t\t.index-left h1{font-size: 32px;color: rgb(92, 107, 119);font-weight: 300;}\n\t\t.article-list{list-style: none;padding: 0;margin: 0;}\n\t\t.article-list .each-article{position: relative;margin-bottom: 20px;border: 1px solid rgba(0, 0, 0, 0.07);}\n\t\t.each-article .media-body{padding: 20px;}\n\t\t.each-article .date{color: rgb(119, 119, 119);font-size: 15px;line-height: 1.8;font-weight: bold;}\n\t\t.each-article .title{font-size: 18px;font-weight: 300;line-height: 33px;}\n\t\t.each-article .content{color: #7F8888;}\n\t\t.each-article .desc{position: absolute;bottom: 15px;left: 20px;padding: 15px 0 0 0;font-size: 16px;color: #7C7C84;line-height: 24px;}\n\t\t.each-article .desc .glyphicon{margin-right: 10px;}\n\t\t.each-article .media-right{max-width: 195px;overflow: hidden;}\n\t\t.each-article .media-right img{max-width: 195px;}\n\t\t@media screen and (max-width: 768px) {\n\t\t\t.each-article .desc{position: static;}\n\t\t}\n\n\t\t/*.index-right{padding-bottom: 9999px;margin-bottom: -9999px;}*/\n\t\t.author-info{padding: 25px 10px;text-align: center;}\n\t\t.author-info .img-author{width: 90px;height: 90px;border-radius: 50%;}\n\t\t.author-info .author-name{color: #555;font-size: 19px;font-weight: bold;margin-top: 15px;margin-bottom: 10px;}\n\t\t.author-info .author-name img{width: 24px;height: 24px;margin-left: 5px;vertical-align: middle;border-radius: 3px;}\n\t\t.author-info .author-intro,.author-info .author-blog{ font-size: 12px;line-height: 24px;}\n\t\t.author-info .author-blog a{text-decoration: none;color: #555;}\n\t\t.mt15{margin-top: 15px;}\n\t\t.right-tags{padding: 15px;}\n\t\t.right-tags .title{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}\n\t\t.tags-body .btn{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}\n\n\t\t.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}\n\t\t.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{\n\t\t    background-color: #8A7DBE;\n\t\t    border-color: #8A7DBE;\n\t\t}\n\n\t\t.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{\n\t\t    color: rgb(0, 0, 0);\n\t\t}\n\n\t\t.pagination>li>a, .pagination>li>span{\n\t\t    color: rgba(41, 44, 47, 0.22);\n\t\t}\n</style>\n\n<template>\n  <div class=\"container-fuild blog-index bg-gray pd15\">\n\t<div class=\"container oh\">\n\t\t<!--左侧-->\n\t\t<div class=\"col-md-9 col-sm-12 col-xs-12 index-left bg-white\">\n\t\t\t<h1>最新</h1>\n\t\t\t<ul class=\"article-list\">\n\t\t\t\t<li class=\"each-article\">\n\t\t\t\t\t<div class=\"media\">\n\t\t\t\t\t\t<div class=\"media-body\">\n\t\t\t\t\t\t\t<p class=\"date\">1天之前</p>\n\t\t\t\t\t\t\t<p class=\"title\">jsonp跨域实践（附其他实现跨域的方法）</p>\n\t\t\t\t\t\t\t<p class=\"content\">\n\t\t\t\t\t\t\t\t面试中常常会问到如何使用jsonp跨域（jsonp跨域的原理是什么），这篇文章就给大家介绍一下相关的知识，如有不对，麻烦指出 ~\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\"><span class=\"glyphicon glyphicon-folder-open\"></span>web前端系列</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\">\n\t\t\t\t\t\t\t<img src=\"../lib/img/blog/pic-vue.png\" alt=\"文章图片\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"each-article\">\n\t\t\t\t\t<div class=\"media\">\n\t\t\t\t\t\t<div class=\"media-body\">\n\t\t\t\t\t\t\t<p class=\"date\">5天之前</p>\n\t\t\t\t\t\t\t<p class=\"title\">vue.js+webpack 实践</p>\n\t\t\t\t\t\t\t<p class=\"content\">\n\t\t\t\t\t\t\t\t随着前端的快速发展，非常多的js框架被应用到项目中。在比较了vue.js、angular.js以及react后，决定动手使用vue.js搭建一个网站当做学习，主要是想用它的组件化及路由。\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\"><span class=\"glyphicon glyphicon-folder-open\"></span>web前端系列</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\">\n\t\t\t\t\t\t\t<img src=\"../lib/img/blog/pic-cannot-be-found.png\" alt=\"文章图片\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"each-article\">\n\t\t\t\t\t<div class=\"media\">\n\t\t\t\t\t\t<div class=\"media-body\">\n\t\t\t\t\t\t\t<p class=\"date\">大约1个月之前</p>\n\t\t\t\t\t\t\t<p class=\"title\">Lantern—无需任何配置翻墙</p>\n\t\t\t\t\t\t\t<p class=\"content\">\n\t\t\t\t\t\t\t\t今天直奔主题，我们该如何采用最便捷的方式实现翻墙。\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\"><span class=\"glyphicon glyphicon-folder-open\"></span>工具系列</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\">\n\t\t\t\t\t\t\t<img src=\"../lib/img/blog/pic-lattern.png\" alt=\"文章图片\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<ul class=\"pagination\">\n\t\t\t    <li class=\"disabled\"><a href=\"javascript:void(0);\" rel=\"prev\">«</a></li>\n\t\t\t    <li class=\"active\"><a href=\"javascript:void(0);\">1</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">2</a></li>\n\t\t\t    <li><span>3</span></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">4</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">5</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\" rel=\"next\">»</a></li>\n\t\t\t</ul>\n\n\t\t</div>\n\t\t<!--end 左侧-->\n\t\t<!--右侧-->\n\t\t<div class=\"col-md-3 hidden-sm hidden-xs\">\n\t\t\t<div class=\"index-right\">\n\t\t\t\t<div class=\"author-info bg-white\">\n\t\t\t\t\t<img src=\"../lib/img/blog/author.jpg\" alt=\"作者头像\" class=\"img-author\">\n\t\t\t\t\t<div class=\"author-name\">殷晓飞<a href=\"http://weibo.com/2684694903/profile?topnav=1&wvr=6&is_all=1\" target=\"_blank\"><img src=\"../lib/img/blog/weibo.png\" alt=\"微博图片\"></a></div>\n\t\t\t\t\t<div class=\"author-intro\">一个有情怀的前端攻城狮。</div>\n\t\t\t\t\t<div class=\"author-blog\">个人站点：<a href=\"http://www.coderyin.com/\" target=\"_blank\">http://www.coderyin.com/</a></div>\n\t\t\t\t\t<div class=\"author-blog\">简书链接：<a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" target=\"_blank\">点击此处</a></div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"right-tags bg-white mt15\">\n                    <div class=\"title\">标签\n                    </div>\n                    <div class=\"tags-body\">\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\">前端</a>\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\">vue.js</a>\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\">webpack</a>\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\">工具</a>\n                    </div>\n\t            </div>\n\t\t\t</div>        \n\t\t</div>\n\t\t<!--end 右侧-->\n\t</div>\n</div>\n</template>\n\n<script>\n\n</script>"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n.oh[_v-2e172e87]{overflow: hidden;}\n.bg-gray[_v-2e172e87]{background: #FAFAFA;}\n.bg-white[_v-2e172e87]{background: #fff;}\n.pd15[_v-2e172e87]{padding: 15px 0;}\n.blog-index[_v-2e172e87]{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', STHeitiSC-Light, 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;}\n.index-left h1[_v-2e172e87]{font-size: 32px;color: rgb(92, 107, 119);font-weight: 300;}\n.article-list[_v-2e172e87]{list-style: none;padding: 0;margin: 0;}\n.article-list .each-article[_v-2e172e87]{position: relative;margin-bottom: 20px;border: 1px solid rgba(0, 0, 0, 0.07);}\n.each-article .media-body[_v-2e172e87]{padding: 20px;}\n.each-article .date[_v-2e172e87]{color: rgb(119, 119, 119);font-size: 15px;line-height: 1.8;font-weight: bold;}\n.each-article .title[_v-2e172e87]{font-size: 18px;font-weight: 300;line-height: 33px;}\n.each-article .content[_v-2e172e87]{color: #7F8888;}\n.each-article .desc[_v-2e172e87]{position: absolute;bottom: 15px;left: 20px;padding: 15px 0 0 0;font-size: 16px;color: #7C7C84;line-height: 24px;}\n.each-article .desc .glyphicon[_v-2e172e87]{margin-right: 10px;}\n.each-article .media-right[_v-2e172e87]{max-width: 195px;overflow: hidden;}\n.each-article .media-right img[_v-2e172e87]{max-width: 195px;}\n@media screen and (max-width: 768px) {\n\t.each-article .desc[_v-2e172e87]{position: static;}\n}\n\n/*.index-right{padding-bottom: 9999px;margin-bottom: -9999px;}*/\n.author-info[_v-2e172e87]{padding: 25px 10px;text-align: center;}\n.author-info .img-author[_v-2e172e87]{width: 90px;height: 90px;border-radius: 50%;}\n.author-info .author-name[_v-2e172e87]{color: #555;font-size: 19px;font-weight: bold;margin-top: 15px;margin-bottom: 10px;}\n.author-info .author-name img[_v-2e172e87]{width: 24px;height: 24px;margin-left: 5px;vertical-align: middle;border-radius: 3px;}\n.author-info .author-intro[_v-2e172e87],.author-info .author-blog[_v-2e172e87]{ font-size: 12px;line-height: 24px;}\n.author-info .author-blog a[_v-2e172e87]{text-decoration: none;color: #555;}\n.mt15[_v-2e172e87]{margin-top: 15px;}\n.right-tags[_v-2e172e87]{padding: 15px;}\n.right-tags .title[_v-2e172e87]{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}\n.tags-body .btn[_v-2e172e87]{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}\n\n.pagination>li>a[_v-2e172e87], .pagination>li>span[_v-2e172e87] { border-radius: 50% !important;margin: 0 5px;}\n.pagination>.active>a[_v-2e172e87], .pagination>.active>a[_v-2e172e87]:focus, .pagination>.active>a[_v-2e172e87]:hover, .pagination>.active>span[_v-2e172e87], .pagination>.active>span[_v-2e172e87]:focus, .pagination>.active>span[_v-2e172e87]:hover{\n    background-color: #8A7DBE;\n    border-color: #8A7DBE;\n}\n\n.pagination>li>a[_v-2e172e87]:focus, .pagination>li>a[_v-2e172e87]:hover, .pagination>li>span[_v-2e172e87]:focus, .pagination>li>span[_v-2e172e87]:hover{\n    color: rgb(0, 0, 0);\n}\n\n.pagination>li>a[_v-2e172e87], .pagination>li>span[_v-2e172e87]{\n    color: rgba(41, 44, 47, 0.22);\n}\n", "", {"version":3,"sources":["/./components/blog-index-content.vue?593e9911"],"names":[],"mappings":";AACA,iBAAA,iBAAA,CAAA;AACA,sBAAA,oBAAA,CAAA;AACA,uBAAA,iBAAA,CAAA;AACA,mBAAA,gBAAA,CAAA;AACA,yBAAA,0HAAA,CAAA;AACA,4BAAA,gBAAA,yBAAA,iBAAA,CAAA;AACA,2BAAA,iBAAA,WAAA,UAAA,CAAA;AACA,yCAAA,mBAAA,oBAAA,sCAAA,CAAA;AACA,uCAAA,cAAA,CAAA;AACA,iCAAA,0BAAA,gBAAA,iBAAA,kBAAA,CAAA;AACA,kCAAA,gBAAA,iBAAA,kBAAA,CAAA;AACA,oCAAA,eAAA,CAAA;AACA,iCAAA,mBAAA,aAAA,WAAA,oBAAA,gBAAA,eAAA,kBAAA,CAAA;AACA,4CAAA,mBAAA,CAAA;AACA,wCAAA,iBAAA,iBAAA,CAAA;AACA,4CAAA,iBAAA,CAAA;AACA;CACA,iCAAA,iBAAA,CAAA;CACA;;AAEA,gEAAA;AACA,0BAAA,mBAAA,mBAAA,CAAA;AACA,sCAAA,YAAA,aAAA,mBAAA,CAAA;AACA,uCAAA,YAAA,gBAAA,kBAAA,iBAAA,oBAAA,CAAA;AACA,2CAAA,YAAA,aAAA,iBAAA,uBAAA,mBAAA,CAAA;AACA,gFAAA,gBAAA,kBAAA,CAAA;AACA,yCAAA,sBAAA,YAAA,CAAA;AACA,mBAAA,iBAAA,CAAA;AACA,yBAAA,cAAA,CAAA;AACA,gCAAA,0BAAA,iBAAA,gBAAA,YAAA,CAAA;AACA,6BAAA,iBAAA,oBAAA,kBAAA,kBAAA,CAAA;;AAEA,kEAAA,8BAAA,cAAA,CAAA;AACA;IACA,0BAAA;IACA,sBAAA;CACA;;AAEA;IACA,oBAAA;CACA;;AAEA;IACA,8BAAA;CACA","file":"blog-index-content.vue","sourcesContent":["<style scoped>\n\t\t.oh{overflow: hidden;}\n\t\t.bg-gray{background: #FAFAFA;}\n\t\t.bg-white{background: #fff;}\n\t\t.pd15{padding: 15px 0;}\n\t\t.blog-index{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', STHeitiSC-Light, 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;}\n\t\t.index-left h1{font-size: 32px;color: rgb(92, 107, 119);font-weight: 300;}\n\t\t.article-list{list-style: none;padding: 0;margin: 0;}\n\t\t.article-list .each-article{position: relative;margin-bottom: 20px;border: 1px solid rgba(0, 0, 0, 0.07);}\n\t\t.each-article .media-body{padding: 20px;}\n\t\t.each-article .date{color: rgb(119, 119, 119);font-size: 15px;line-height: 1.8;font-weight: bold;}\n\t\t.each-article .title{font-size: 18px;font-weight: 300;line-height: 33px;}\n\t\t.each-article .content{color: #7F8888;}\n\t\t.each-article .desc{position: absolute;bottom: 15px;left: 20px;padding: 15px 0 0 0;font-size: 16px;color: #7C7C84;line-height: 24px;}\n\t\t.each-article .desc .glyphicon{margin-right: 10px;}\n\t\t.each-article .media-right{max-width: 195px;overflow: hidden;}\n\t\t.each-article .media-right img{max-width: 195px;}\n\t\t@media screen and (max-width: 768px) {\n\t\t\t.each-article .desc{position: static;}\n\t\t}\n\n\t\t/*.index-right{padding-bottom: 9999px;margin-bottom: -9999px;}*/\n\t\t.author-info{padding: 25px 10px;text-align: center;}\n\t\t.author-info .img-author{width: 90px;height: 90px;border-radius: 50%;}\n\t\t.author-info .author-name{color: #555;font-size: 19px;font-weight: bold;margin-top: 15px;margin-bottom: 10px;}\n\t\t.author-info .author-name img{width: 24px;height: 24px;margin-left: 5px;vertical-align: middle;border-radius: 3px;}\n\t\t.author-info .author-intro,.author-info .author-blog{ font-size: 12px;line-height: 24px;}\n\t\t.author-info .author-blog a{text-decoration: none;color: #555;}\n\t\t.mt15{margin-top: 15px;}\n\t\t.right-tags{padding: 15px;}\n\t\t.right-tags .title{font-family: 'Montserrat';font-weight: 600;font-size: 12px;color: #666;}\n\t\t.tags-body .btn{margin-top: 10px;border-radius: 15px;padding: 4px 15px;margin-right: 5px;}\n\n\t\t.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}\n\t\t.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{\n\t\t    background-color: #8A7DBE;\n\t\t    border-color: #8A7DBE;\n\t\t}\n\n\t\t.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{\n\t\t    color: rgb(0, 0, 0);\n\t\t}\n\n\t\t.pagination>li>a, .pagination>li>span{\n\t\t    color: rgba(41, 44, 47, 0.22);\n\t\t}\n</style>\n\n<template>\n  <div class=\"container-fuild blog-index bg-gray pd15\">\n\t<div class=\"container oh\">\n\t\t<!--左侧-->\n\t\t<div class=\"col-md-9 col-sm-12 col-xs-12 index-left bg-white\">\n\t\t\t<h1>最新</h1>\n\t\t\t<ul class=\"article-list\">\n\t\t\t\t<li class=\"each-article\" v-for=\"item in blog_artciles\">\n\t\t\t\t\t<div class=\"media\">\n\t\t\t\t\t\t<div class=\"media-body\">\n\t\t\t\t\t\t\t<p class=\"date\">{{item.date}}</p>\n\t\t\t\t\t\t\t<p class=\"title\">{{item.title}}</p>\n\t\t\t\t\t\t\t<p class=\"content\">\n\t\t\t\t\t\t\t\t{{item.content}}\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\"><span class=\"glyphicon glyphicon-folder-open\"></span>{{item.desc}}</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\">\n\t\t\t\t\t\t\t<img v-bind:src=item.img alt=\"文章图片\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<ul class=\"pagination\">\n\t\t\t    <li class=\"disabled\"><a href=\"javascript:void(0);\" rel=\"prev\">«</a></li>\n\t\t\t    <li class=\"active\"><a href=\"javascript:void(0);\">1</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">2</a></li>\n\t\t\t    <li><span>3</span></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">4</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\">5</a></li>\n\t\t\t    <li><a href=\"javascript:void(0);\" rel=\"next\">»</a></li>\n\t\t\t</ul>\n\n\t\t</div>\n\t\t<!--end 左侧-->\n\t\t<!--右侧-->\n\t\t<div class=\"col-md-3 hidden-sm hidden-xs\">\n\t\t\t<div class=\"index-right\">\n\t\t\t\t<div class=\"author-info bg-white\">\n\t\t\t\t\t<img src=\"../lib/img/blog/author.jpg\" alt=\"作者头像\" class=\"img-author\">\n\t\t\t\t\t<div class=\"author-name\">殷晓飞<a href=\"http://weibo.com/2684694903/profile?topnav=1&wvr=6&is_all=1\" target=\"_blank\"><img src=\"../lib/img/blog/weibo.png\" alt=\"微博图片\"></a></div>\n\t\t\t\t\t<div class=\"author-intro\">一个有情怀的前端攻城狮。</div>\n\t\t\t\t\t<div class=\"author-blog\">个人站点：<a href=\"http://www.coderyin.com/\" target=\"_blank\">http://www.coderyin.com/</a></div>\n\t\t\t\t\t<div class=\"author-blog\">简书链接：<a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" target=\"_blank\">点击此处</a></div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"right-tags bg-white mt15\">\n                    <div class=\"title\">标签\n                    </div>\n                    <div class=\"tags-body\">\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" v-for=\"item in blog_index_tags\">{{item}}</a>\n                    </div>\n\t            </div>\n\t\t\t</div>        \n\t\t</div>\n\t\t<!--end 右侧-->\n\t</div>\n</div>\n</template>\n\n<script>\nexport default {\n  ready: function() {\n\n  \t  //文章列表\n      this.$http.get('blog_articles.json', function(d) {\n      \t\t\n      \t\t//判断接口是否请求成功\n      \t\tif(d.code!=200){\n      \t\t\talert(d.msg);\n      \t\t\treturn false;\n      \t\t}\n      \t\t//设置数据\n            this.$set('blog_artciles', d.data.article_list);\n      }).error(function(data, status, request) {\n          console.log('fail' + status + \",\" + request);\n      });\n\n      //文章标签\n      this.$http.get('blog_index_tags.json', function(d) {\n      \t\t//判断接口是否请求成功\n      \t\tif(d.code!=200){\n      \t\t\talert(d.msg);\n      \t\t\treturn false;\n      \t\t}\n      \t\t//设置数据\n            this.$set('blog_index_tags', d.data.tags);\n      }).error(function(data, status, request) {\n          console.log('fail' + status + \",\" + request);\n      });\n      \n  },\n  data () {\n    return {\n      blog_artciles: [],\n      blog_index_tags: []\n    }\n  },\n  methods:{\n      hello: function(){\n        alert(\"hello world\");\n      }\n  }\n}\n</script>"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -14700,6 +14700,11 @@
 /* 71 */
 /***/ function(module, exports) {
 
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
 	// <style scoped>
 	// 		.oh{overflow: hidden;}
 	// 		.bg-gray{background: #FAFAFA;}
@@ -14755,48 +14760,18 @@
 	// 		<div class="col-md-9 col-sm-12 col-xs-12 index-left bg-white">
 	// 			<h1>最新</h1>
 	// 			<ul class="article-list">
-	// 				<li class="each-article">
+	// 				<li class="each-article" v-for="item in blog_artciles">
 	// 					<div class="media">
 	// 						<div class="media-body">
-	// 							<p class="date">1天之前</p>
-	// 							<p class="title">jsonp跨域实践（附其他实现跨域的方法）</p>
+	// 							<p class="date">{{item.date}}</p>
+	// 							<p class="title">{{item.title}}</p>
 	// 							<p class="content">
-	// 								面试中常常会问到如何使用jsonp跨域（jsonp跨域的原理是什么），这篇文章就给大家介绍一下相关的知识，如有不对，麻烦指出 ~
+	// 								{{item.content}}
 	// 							</p>
-	// 							<p class="desc"><span class="glyphicon glyphicon-folder-open"></span>web前端系列</p>
+	// 							<p class="desc"><span class="glyphicon glyphicon-folder-open"></span>{{item.desc}}</p>
 	// 						</div>
 	// 						<div class="media-right hidden-xs">
-	// 							<img src="../lib/img/blog/pic-vue.png" alt="文章图片">
-	// 						</div>
-	// 					</div>
-	// 				</li>
-	// 				<li class="each-article">
-	// 					<div class="media">
-	// 						<div class="media-body">
-	// 							<p class="date">5天之前</p>
-	// 							<p class="title">vue.js+webpack 实践</p>
-	// 							<p class="content">
-	// 								随着前端的快速发展，非常多的js框架被应用到项目中。在比较了vue.js、angular.js以及react后，决定动手使用vue.js搭建一个网站当做学习，主要是想用它的组件化及路由。
-	// 							</p>
-	// 							<p class="desc"><span class="glyphicon glyphicon-folder-open"></span>web前端系列</p>
-	// 						</div>
-	// 						<div class="media-right hidden-xs">
-	// 							<img src="../lib/img/blog/pic-cannot-be-found.png" alt="文章图片">
-	// 						</div>
-	// 					</div>
-	// 				</li>
-	// 				<li class="each-article">
-	// 					<div class="media">
-	// 						<div class="media-body">
-	// 							<p class="date">大约1个月之前</p>
-	// 							<p class="title">Lantern—无需任何配置翻墙</p>
-	// 							<p class="content">
-	// 								今天直奔主题，我们该如何采用最便捷的方式实现翻墙。
-	// 							</p>
-	// 							<p class="desc"><span class="glyphicon glyphicon-folder-open"></span>工具系列</p>
-	// 						</div>
-	// 						<div class="media-right hidden-xs">
-	// 							<img src="../lib/img/blog/pic-lattern.png" alt="文章图片">
+	// 							<img v-bind:src=item.img alt="文章图片">
 	// 						</div>
 	// 					</div>
 	// 				</li>
@@ -14829,10 +14804,7 @@
 	//                     <div class="title">标签
 	//                     </div>
 	//                     <div class="tags-body">
-	//                         <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10">前端</a>
-	//                         <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10">vue.js</a>
-	//                         <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10">webpack</a>
-	//                         <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10">工具</a>
+	//                         <a href="javascript:void(0);" class="btn btn-default btn-sm  btn-rounded m-r-5 m-b-10" v-for="item in blog_index_tags">{{item}}</a>
 	//                     </div>
 	// 	            </div>
 	// 			</div>       
@@ -14843,49 +14815,72 @@
 	// </template>
 	//
 	// <script>
-
+	exports.default = {
+	    ready: function ready() {
+	
+	        //文章列表
+	        this.$http.get('blog_articles.json', function (d) {
+	
+	            //判断接口是否请求成功
+	            if (d.code != 200) {
+	                alert(d.msg);
+	                return false;
+	            }
+	            //设置数据
+	            this.$set('blog_artciles', d.data.article_list);
+	        }).error(function (data, status, request) {
+	            console.log('fail' + status + "," + request);
+	        });
+	
+	        //文章标签
+	        this.$http.get('blog_index_tags.json', function (d) {
+	            //判断接口是否请求成功
+	            if (d.code != 200) {
+	                alert(d.msg);
+	                return false;
+	            }
+	            //设置数据
+	            this.$set('blog_index_tags', d.data.tags);
+	        }).error(function (data, status, request) {
+	            console.log('fail' + status + "," + request);
+	        });
+	    },
+	    data: function data() {
+	        return {
+	            blog_artciles: [],
+	            blog_index_tags: []
+	        };
+	    },
+	
+	    methods: {
+	        hello: function hello() {
+	            alert("hello world");
+	        }
+	    }
+	};
 	// </script>
 	/* generated by vue-loader */
-	"use strict";
 
 /***/ },
 /* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = "\n  <div class=\"container-fuild blog-index bg-gray pd15\" _v-2e172e87=\"\">\n\t<div class=\"container oh\" _v-2e172e87=\"\">\n\t\t<!--左侧-->\n\t\t<div class=\"col-md-9 col-sm-12 col-xs-12 index-left bg-white\" _v-2e172e87=\"\">\n\t\t\t<h1 _v-2e172e87=\"\">最新</h1>\n\t\t\t<ul class=\"article-list\" _v-2e172e87=\"\">\n\t\t\t\t<li class=\"each-article\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"media\" _v-2e172e87=\"\">\n\t\t\t\t\t\t<div class=\"media-body\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<p class=\"date\" _v-2e172e87=\"\">1天之前</p>\n\t\t\t\t\t\t\t<p class=\"title\" _v-2e172e87=\"\">jsonp跨域实践（附其他实现跨域的方法）</p>\n\t\t\t\t\t\t\t<p class=\"content\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t\t面试中常常会问到如何使用jsonp跨域（jsonp跨域的原理是什么），这篇文章就给大家介绍一下相关的知识，如有不对，麻烦指出 ~\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\" _v-2e172e87=\"\"><span class=\"glyphicon glyphicon-folder-open\" _v-2e172e87=\"\"></span>web前端系列</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<img src=\"" + __webpack_require__(73) + "\" alt=\"文章图片\" _v-2e172e87=\"\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"each-article\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"media\" _v-2e172e87=\"\">\n\t\t\t\t\t\t<div class=\"media-body\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<p class=\"date\" _v-2e172e87=\"\">5天之前</p>\n\t\t\t\t\t\t\t<p class=\"title\" _v-2e172e87=\"\">vue.js+webpack 实践</p>\n\t\t\t\t\t\t\t<p class=\"content\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t\t随着前端的快速发展，非常多的js框架被应用到项目中。在比较了vue.js、angular.js以及react后，决定动手使用vue.js搭建一个网站当做学习，主要是想用它的组件化及路由。\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\" _v-2e172e87=\"\"><span class=\"glyphicon glyphicon-folder-open\" _v-2e172e87=\"\"></span>web前端系列</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<img src=\"" + __webpack_require__(74) + "\" alt=\"文章图片\" _v-2e172e87=\"\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"each-article\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"media\" _v-2e172e87=\"\">\n\t\t\t\t\t\t<div class=\"media-body\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<p class=\"date\" _v-2e172e87=\"\">大约1个月之前</p>\n\t\t\t\t\t\t\t<p class=\"title\" _v-2e172e87=\"\">Lantern—无需任何配置翻墙</p>\n\t\t\t\t\t\t\t<p class=\"content\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t\t今天直奔主题，我们该如何采用最便捷的方式实现翻墙。\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\" _v-2e172e87=\"\"><span class=\"glyphicon glyphicon-folder-open\" _v-2e172e87=\"\"></span>工具系列</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<img src=\"" + __webpack_require__(75) + "\" alt=\"文章图片\" _v-2e172e87=\"\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<ul class=\"pagination\" _v-2e172e87=\"\">\n\t\t\t    <li class=\"disabled\" _v-2e172e87=\"\"><a href=\"javascript:void(0);\" rel=\"prev\" _v-2e172e87=\"\">«</a></li>\n\t\t\t    <li class=\"active\" _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">1</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">2</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><span _v-2e172e87=\"\">3</span></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">4</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">5</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" rel=\"next\" _v-2e172e87=\"\">»</a></li>\n\t\t\t</ul>\n\n\t\t</div>\n\t\t<!--end 左侧-->\n\t\t<!--右侧-->\n\t\t<div class=\"col-md-3 hidden-sm hidden-xs\" _v-2e172e87=\"\">\n\t\t\t<div class=\"index-right\" _v-2e172e87=\"\">\n\t\t\t\t<div class=\"author-info bg-white\" _v-2e172e87=\"\">\n\t\t\t\t\t<img src=\"" + __webpack_require__(76) + "\" alt=\"作者头像\" class=\"img-author\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"author-name\" _v-2e172e87=\"\">殷晓飞<a href=\"http://weibo.com/2684694903/profile?topnav=1&amp;wvr=6&amp;is_all=1\" target=\"_blank\" _v-2e172e87=\"\"><img src=\"" + __webpack_require__(77) + "\" alt=\"微博图片\" _v-2e172e87=\"\"></a></div>\n\t\t\t\t\t<div class=\"author-intro\" _v-2e172e87=\"\">一个有情怀的前端攻城狮。</div>\n\t\t\t\t\t<div class=\"author-blog\" _v-2e172e87=\"\">个人站点：<a href=\"http://www.coderyin.com/\" target=\"_blank\" _v-2e172e87=\"\">http://www.coderyin.com/</a></div>\n\t\t\t\t\t<div class=\"author-blog\" _v-2e172e87=\"\">简书链接：<a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" target=\"_blank\" _v-2e172e87=\"\">点击此处</a></div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"right-tags bg-white mt15\" _v-2e172e87=\"\">\n                    <div class=\"title\" _v-2e172e87=\"\">标签\n                    </div>\n                    <div class=\"tags-body\" _v-2e172e87=\"\">\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" _v-2e172e87=\"\">前端</a>\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" _v-2e172e87=\"\">vue.js</a>\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" _v-2e172e87=\"\">webpack</a>\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" _v-2e172e87=\"\">工具</a>\n                    </div>\n\t            </div>\n\t\t\t</div>        \n\t\t</div>\n\t\t<!--end 右侧-->\n\t</div>\n</div>\n";
+	module.exports = "\n  <div class=\"container-fuild blog-index bg-gray pd15\" _v-2e172e87=\"\">\n\t<div class=\"container oh\" _v-2e172e87=\"\">\n\t\t<!--左侧-->\n\t\t<div class=\"col-md-9 col-sm-12 col-xs-12 index-left bg-white\" _v-2e172e87=\"\">\n\t\t\t<h1 _v-2e172e87=\"\">最新</h1>\n\t\t\t<ul class=\"article-list\" _v-2e172e87=\"\">\n\t\t\t\t<li class=\"each-article\" v-for=\"item in blog_artciles\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"media\" _v-2e172e87=\"\">\n\t\t\t\t\t\t<div class=\"media-body\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<p class=\"date\" _v-2e172e87=\"\">{{item.date}}</p>\n\t\t\t\t\t\t\t<p class=\"title\" _v-2e172e87=\"\">{{item.title}}</p>\n\t\t\t\t\t\t\t<p class=\"content\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t\t{{item.content}}\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"desc\" _v-2e172e87=\"\"><span class=\"glyphicon glyphicon-folder-open\" _v-2e172e87=\"\"></span>{{item.desc}}</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"media-right hidden-xs\" _v-2e172e87=\"\">\n\t\t\t\t\t\t\t<img v-bind:src=\"item.img\" alt=\"文章图片\" _v-2e172e87=\"\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t</ul>\n\n\t\t\t<ul class=\"pagination\" _v-2e172e87=\"\">\n\t\t\t    <li class=\"disabled\" _v-2e172e87=\"\"><a href=\"javascript:void(0);\" rel=\"prev\" _v-2e172e87=\"\">«</a></li>\n\t\t\t    <li class=\"active\" _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">1</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">2</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><span _v-2e172e87=\"\">3</span></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">4</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" _v-2e172e87=\"\">5</a></li>\n\t\t\t    <li _v-2e172e87=\"\"><a href=\"javascript:void(0);\" rel=\"next\" _v-2e172e87=\"\">»</a></li>\n\t\t\t</ul>\n\n\t\t</div>\n\t\t<!--end 左侧-->\n\t\t<!--右侧-->\n\t\t<div class=\"col-md-3 hidden-sm hidden-xs\" _v-2e172e87=\"\">\n\t\t\t<div class=\"index-right\" _v-2e172e87=\"\">\n\t\t\t\t<div class=\"author-info bg-white\" _v-2e172e87=\"\">\n\t\t\t\t\t<img src=\"" + __webpack_require__(73) + "\" alt=\"作者头像\" class=\"img-author\" _v-2e172e87=\"\">\n\t\t\t\t\t<div class=\"author-name\" _v-2e172e87=\"\">殷晓飞<a href=\"http://weibo.com/2684694903/profile?topnav=1&amp;wvr=6&amp;is_all=1\" target=\"_blank\" _v-2e172e87=\"\"><img src=\"" + __webpack_require__(74) + "\" alt=\"微博图片\" _v-2e172e87=\"\"></a></div>\n\t\t\t\t\t<div class=\"author-intro\" _v-2e172e87=\"\">一个有情怀的前端攻城狮。</div>\n\t\t\t\t\t<div class=\"author-blog\" _v-2e172e87=\"\">个人站点：<a href=\"http://www.coderyin.com/\" target=\"_blank\" _v-2e172e87=\"\">http://www.coderyin.com/</a></div>\n\t\t\t\t\t<div class=\"author-blog\" _v-2e172e87=\"\">简书链接：<a href=\"http://www.jianshu.com/users/489e597a9cad/latest_articles\" target=\"_blank\" _v-2e172e87=\"\">点击此处</a></div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"right-tags bg-white mt15\" _v-2e172e87=\"\">\n                    <div class=\"title\" _v-2e172e87=\"\">标签\n                    </div>\n                    <div class=\"tags-body\" _v-2e172e87=\"\">\n                        <a href=\"javascript:void(0);\" class=\"btn btn-default btn-sm  btn-rounded m-r-5 m-b-10\" v-for=\"item in blog_index_tags\" _v-2e172e87=\"\">{{item}}</a>\n                    </div>\n\t            </div>\n\t\t\t</div>        \n\t\t</div>\n\t\t<!--end 右侧-->\n\t</div>\n</div>\n";
 
 /***/ },
 /* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "pic-vue.png?76be8f2b46126317d56a3db03cfe3103";
+	module.exports = __webpack_require__.p + "author.jpg?89a96ec3ac796f22439f1dee99e26829";
 
 /***/ },
 /* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "pic-cannot-be-found.png?5ca8f13fcc4099b3751ef4b9eae50480";
-
-/***/ },
-/* 75 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "pic-lattern.png?8a32f0349e01cdd794612cfd837142ce";
-
-/***/ },
-/* 76 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "author.jpg?89a96ec3ac796f22439f1dee99e26829";
-
-/***/ },
-/* 77 */
-/***/ function(module, exports, __webpack_require__) {
-
 	module.exports = __webpack_require__.p + "weibo.png?be9c158a6736abed07cd6d4bee4598a0";
 
 /***/ },
-/* 78 */
+/* 75 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<nv-head></nv-head>\n<blog-center></blog-center>\n\n";

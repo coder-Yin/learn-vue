@@ -9,7 +9,8 @@ module.exports = {
   // },
   entry: {
     app:['./src/app.js'],
-    blog_index:['./src/blog_index.js']
+    blog_index:['./src/blog_index.js'],
+    works:['./src/works.js']
   },
   output: {
     path: './dist', //文件夹生成的目录

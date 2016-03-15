@@ -14707,7 +14707,7 @@
 	
 	
 	// module
-	exports.push([module.id, "\n.ul-pic li[_v-090db16a]{\n\tfloat: left;\n\twidth: 160px;\n\tmargin-right: 15px;\n\tmargin-bottom: 15px;\n\tlist-style: none;\n\ttext-align: center;\n}\n\n.ul-pic .pic[_v-090db16a]{\n\tmargin: 0;\n}\n.ul-pic .pic-desc[_v-090db16a]{\n\theight: 30px;\n\tline-height: 30px;\n\tmargin: 0;\n\tbackground: #5cb85c;\n\tcolor: #fff;\n\tfont-family: \"\\5FAE\\8F6F\\96C5\\9ED1\";\n}\n", "", {"version":3,"sources":["/./components/works-content.vue?7b8aa446"],"names":[],"mappings":";AACA;CACA,YAAA;CACA,aAAA;CACA,mBAAA;CACA,oBAAA;CACA,iBAAA;CACA,mBAAA;CACA;;AAEA;CACA,UAAA;CACA;AACA;CACA,aAAA;CACA,kBAAA;CACA,UAAA;CACA,oBAAA;CACA,YAAA;CACA,oCAAA;CACA","file":"works-content.vue","sourcesContent":["<style scoped>\n\t.ul-pic li{\n\t\tfloat: left;\n\t\twidth: 160px;\n\t\tmargin-right: 15px;\n\t\tmargin-bottom: 15px;\n\t\tlist-style: none;\n\t\ttext-align: center;\n\t}\n\t\n\t.ul-pic .pic{\n\t\tmargin: 0;\n\t}\n\t.ul-pic .pic-desc{\n\t\theight: 30px;\n\t\tline-height: 30px;\n\t\tmargin: 0;\n\t\tbackground: #5cb85c;\n\t\tcolor: #fff;\n\t\tfont-family: \"微软雅黑\";\n\t}\n</style>\n\n<template>\n  <section class=\"container\">\n       <ul class=\"clearfix ul-pic\">\n       \t\t<li v-for=\"item in picStyles\">\n       \t\t\t<p class=\"pic\" v-bind:style=\"{height:item.height,backgroundColor:item.bgColor}\"></p>\n       \t\t\t<p class=\"pic-desc\">{{item.name}}</p>\n       \t\t</li>\n       </ul>\n  </section>\n</template>\n\n\n\n<script>\nexport default {\n  ready: function() {\n\n  \t  var that = this;\n  \t  var tempData=[];\n      for(var i=0;i<10;i++){\n      \tvar bgColor=that.getColor();\n      \tvar height = that.getHeight()+\"px\";\n      \tvar name=\"第\"+(i+1)+\"张图片\";\n      \ttempData[i]={\"name\":name,\"height\":height,\"bgColor\":bgColor};\n      }\n\n      this.$set('picStyles',tempData);\n      \n  },\n  methods:{\n\t  getHeight: function(){\n\t  \treturn Math.floor(Math.random()*200 + 100);\n\t  },\n\t  getColor: function(){\n\t  \tvar colors =[\"#006699\",\"#87c80c\",\"#2294EA\",\"#4ec83b\",\"#f00\",\"#111\",\"#222\",\"#333\",\"#444\",\"#555\"];\n\t  \tvar randomIndex = Math.floor(Math.random()*10);\n\t  \treturn colors[randomIndex];\n\t  }\n  },\n  data () {\n    return {\n      picStyles: []\n    }\n  }\n}\n</script>"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "\n.each-work-sery[_v-090db16a] {\n\tmargin-top: 25px;\n}\n\n.each-work-sery .works-title[_v-090db16a]{\n\tfont-size: 20px;\n\tfont-weight: bold;\n\tcolor: #333;\n}\n\n.works-date[_v-090db16a]{\n\tmargin-top: 10px;\n\tfont-size: 12px;\n\tcolor: #666;\n}\n\n.ul-pic li[_v-090db16a]{\n\tfloat: left;\n\twidth: 160px;\n\tmargin-right: 15px;\n\tmargin-bottom: 15px;\n\tlist-style: none;\n\ttext-align: center;\n}\n\n.ul-pic .pic[_v-090db16a]{\n\tmargin: 0;\n}\n.ul-pic .pic-desc[_v-090db16a]{\n\theight: 30px;\n\tline-height: 30px;\n\tmargin: 0;\n\tbackground: #5cb85c;\n\tcolor: #fff;\n\tfont-family: \"\\5FAE\\8F6F\\96C5\\9ED1\";\n}\n", "", {"version":3,"sources":["/./components/works-content.vue?1bf46410"],"names":[],"mappings":";AACA;CACA,iBAAA;CACA;;AAEA;CACA,gBAAA;CACA,kBAAA;CACA,YAAA;CACA;;AAEA;CACA,iBAAA;CACA,gBAAA;CACA,YAAA;CACA;;AAEA;CACA,YAAA;CACA,aAAA;CACA,mBAAA;CACA,oBAAA;CACA,iBAAA;CACA,mBAAA;CACA;;AAEA;CACA,UAAA;CACA;AACA;CACA,aAAA;CACA,kBAAA;CACA,UAAA;CACA,oBAAA;CACA,YAAA;CACA,oCAAA;CACA","file":"works-content.vue","sourcesContent":["<style scoped>\n\t.each-work-sery {\n\t\tmargin-top: 25px;\n\t}\n\n\t.each-work-sery .works-title{\n\t\tfont-size: 20px;\n\t\tfont-weight: bold;\n\t\tcolor: #333;\n\t}\n\n\t.works-date{\n\t\tmargin-top: 10px;\n\t\tfont-size: 12px;\n\t\tcolor: #666;\n\t}\n\n\t.ul-pic li{\n\t\tfloat: left;\n\t\twidth: 160px;\n\t\tmargin-right: 15px;\n\t\tmargin-bottom: 15px;\n\t\tlist-style: none;\n\t\ttext-align: center;\n\t}\n\t\n\t.ul-pic .pic{\n\t\tmargin: 0;\n\t}\n\t.ul-pic .pic-desc{\n\t\theight: 30px;\n\t\tline-height: 30px;\n\t\tmargin: 0;\n\t\tbackground: #5cb85c;\n\t\tcolor: #fff;\n\t\tfont-family: \"微软雅黑\";\n\t}\n</style>\n\n<template>\n  <section class=\"container\">\n  \t   <div class=\"each-work-sery\">\t\n\t  \t   <h2 class=\"works-title\">作品图</h2>\n\t  \t   <p class=\"works-date\">2015.12-2016.03</p>\n\t       <ul class=\"clearfix ul-pic\">\n\t       \t\t<li v-for=\"item in picStyles\">\n\t       \t\t\t<p class=\"pic\" v-bind:style=\"{height:item.height,backgroundColor:item.bgColor}\"></p>\n\t       \t\t\t<p class=\"pic-desc\">{{item.name}}</p>\n\t       \t\t</li>\n\t       </ul>\n       </div>\n  </section>\n</template>\n\n\n\n<script>\nexport default {\n  ready: function() {\n\n  \t  var that = this;\n  \t  var tempData=[];\n      for(var i=0;i<10;i++){\n      \tvar bgColor=that.getColor();\n      \tvar height = that.getHeight()+\"px\";\n      \tvar name=\"第\"+(i+1)+\"张图片\";\n      \ttempData[i]={\"name\":name,\"height\":height,\"bgColor\":bgColor};\n      }\n\n      this.$set('picStyles',tempData);\n      \n  },\n  methods:{\n\t  getHeight: function(){\n\t  \treturn Math.floor(Math.random()*200 + 100);\n\t  },\n\t  getColor: function(){\n\t  \tvar colors =[\"#006699\",\"#87c80c\",\"#2294EA\",\"#4ec83b\",\"#f00\",\"#111\",\"#222\",\"#333\",\"#444\",\"#555\"];\n\t  \tvar randomIndex = Math.floor(Math.random()*10);\n\t  \treturn colors[randomIndex];\n\t  }\n  },\n  data () {\n    return {\n      picStyles: []\n    }\n  }\n}\n</script>"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -14722,6 +14722,22 @@
 	  value: true
 	});
 	// <style scoped>
+	// 	.each-work-sery {
+	// 		margin-top: 25px;
+	// 	}
+	//
+	// 	.each-work-sery .works-title{
+	// 		font-size: 20px;
+	// 		font-weight: bold;
+	// 		color: #333;
+	// 	}
+	//
+	// 	.works-date{
+	// 		margin-top: 10px;
+	// 		font-size: 12px;
+	// 		color: #666;
+	// 	}
+	//
 	// 	.ul-pic li{
 	// 		float: left;
 	// 		width: 160px;
@@ -14746,12 +14762,16 @@
 	//
 	// <template>
 	//   <section class="container">
-	//        <ul class="clearfix ul-pic">
-	//        		<li v-for="item in picStyles">
-	//        			<p class="pic" v-bind:style="{height:item.height,backgroundColor:item.bgColor}"></p>
-	//        			<p class="pic-desc">{{item.name}}</p>
-	//        		</li>
-	//        </ul>
+	//   	   <div class="each-work-sery">	
+	// 	  	   <h2 class="works-title">作品图</h2>
+	// 	  	   <p class="works-date">2015.12-2016.03</p>
+	// 	       <ul class="clearfix ul-pic">
+	// 	       		<li v-for="item in picStyles">
+	// 	       			<p class="pic" v-bind:style="{height:item.height,backgroundColor:item.bgColor}"></p>
+	// 	       			<p class="pic-desc">{{item.name}}</p>
+	// 	       		</li>
+	// 	       </ul>
+	//        </div>
 	//   </section>
 	// </template>
 	//
@@ -14795,7 +14815,7 @@
 /* 89 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<section class=\"container\" _v-090db16a=\"\">\n     <ul class=\"clearfix ul-pic\" _v-090db16a=\"\">\n     \t\t<li v-for=\"item in picStyles\" _v-090db16a=\"\">\n     \t\t\t<p class=\"pic\" v-bind:style=\"{height:item.height,backgroundColor:item.bgColor}\" _v-090db16a=\"\"></p>\n     \t\t\t<p class=\"pic-desc\" _v-090db16a=\"\">{{item.name}}</p>\n     \t\t</li>\n     </ul>\n</section>\n";
+	module.exports = "\n  <section class=\"container\" _v-090db16a=\"\">\n  \t   <div class=\"each-work-sery\" _v-090db16a=\"\">\t\n\t  \t   <h2 class=\"works-title\" _v-090db16a=\"\">作品图</h2>\n\t  \t   <p class=\"works-date\" _v-090db16a=\"\">2015.12-2016.03</p>\n\t       <ul class=\"clearfix ul-pic\" _v-090db16a=\"\">\n\t       \t\t<li v-for=\"item in picStyles\" _v-090db16a=\"\">\n\t       \t\t\t<p class=\"pic\" v-bind:style=\"{height:item.height,backgroundColor:item.bgColor}\" _v-090db16a=\"\"></p>\n\t       \t\t\t<p class=\"pic-desc\" _v-090db16a=\"\">{{item.name}}</p>\n\t       \t\t</li>\n\t       </ul>\n       </div>\n  </section>\n";
 
 /***/ },
 /* 90 */

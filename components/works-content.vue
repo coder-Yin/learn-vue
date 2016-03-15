@@ -1,4 +1,20 @@
 <style scoped>
+	.each-work-sery {
+		margin-top: 25px;
+	}
+
+	.each-work-sery .works-title{
+		font-size: 20px;
+		font-weight: bold;
+		color: #333;
+	}
+
+	.works-date{
+		margin-top: 10px;
+		font-size: 12px;
+		color: #666;
+	}
+
 	.ul-pic li{
 		float: left;
 		width: 160px;
@@ -23,12 +39,16 @@
 
 <template>
   <section class="container">
-       <ul class="clearfix ul-pic">
-       		<li v-for="item in picStyles">
-       			<p class="pic" v-bind:style="{height:item.height,backgroundColor:item.bgColor}"></p>
-       			<p class="pic-desc">{{item.name}}</p>
-       		</li>
-       </ul>
+  	   <div class="each-work-sery">	
+	  	   <h2 class="works-title">作品图</h2>
+	  	   <p class="works-date">2015.12-2016.03</p>
+	       <ul class="clearfix ul-pic">
+	       		<li v-for="item in picStyles">
+	       			<p class="pic" v-bind:style="{height:item.height,backgroundColor:item.bgColor}"></p>
+	       			<p class="pic-desc">{{item.name}}</p>
+	       		</li>
+	       </ul>
+       </div>
   </section>
 </template>
 

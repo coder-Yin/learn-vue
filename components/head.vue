@@ -72,19 +72,19 @@ transform: scale(1.5);}
         <nav id="bs-navbar" class="navbar-collapse collapse" aria-expanded="false">
           <ul class="nav navbar-nav">
             <li>
-              <a href="javascript:void(0);" class="active">首页</a>
+              <a href="app.html#!/index" class="active">首页</a>
             </li>
             <li>
               <a href="#">简历</a>
             </li>
             <li>
-              <a href="mysite/html/resume/resume.html">作品</a>
+              <a href="works.html#!/index">作品</a>
             </li>
             <li>
               <a href="mysite/html/personalwork/medias.html">组件</a>
             </li>
             <li>
-              <a href="blog-index.html">博客</a>
+              <a href="blog-index.html#!/index">博客</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">

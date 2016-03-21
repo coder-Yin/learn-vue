@@ -11,7 +11,7 @@
   *2016.03.21*
     
     1.增加博客管理组件（增加、删除记录）——blog-manage-content.vue;
-    1.增加表单验证，jquery-validate.js;
+    2.增加表单验证，jquery-validate.js;
 
   *2016.03.15*
     

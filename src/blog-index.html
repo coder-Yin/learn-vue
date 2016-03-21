@@ -18,9 +18,30 @@
 		<router-view ></router-view>
 	</div>
     <script src="../dist/blog_index.js"></script>
+    <script src="../lib/js/common/jquery.js"></script>
+    <script src="../lib/js/plugins/jquery-validate.min.js"></script>
+    <script src="../lib/js/plugins/jquery-form.js"></script>
     <script>
     	//用于分享
 		with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+
+        $(function(){
+            $('#form').validate({
+              rules:{
+                  recordTitle: { required: true,minlength:2}
+              },
+              messages:{
+                  recordTitle: { required: '不能为空',minlength:'最小长度为2'}
+
+              },
+              errorPlacement: function(error, element) {
+                  error.appendTo(element.parent());
+              },
+              submitHandler:function(form) {
+                alert("success");
+              }
+            });
+        });
 	</script>
   </body>
 </html>

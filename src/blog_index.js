@@ -5,8 +5,12 @@ var blogManage = require('../views/blog-manage.vue')
 
 var VueRouter = require('vue-router')
 Vue.use(VueRouter)
+
 var VueResource = require('vue-resource')
 Vue.use(VueResource)
+
+var VueValidator = require('vue-validator')
+Vue.use(VueValidator)
 
 
 // 路由器需要一个根组件。

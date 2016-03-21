@@ -23,16 +23,23 @@
 	        </tr>
 	      </tbody>
 	    </table>
-
-  	    <div class="form-group">
-		    <label for="recordTitle">标题名：<span> {{recordTitle}} </span></label>
-		    <input type="text" class="form-control" id="recordTitle" v-model="recordTitle"  placeholder="请输入记录的标题名称">
-		</div>
-    	<button class="btn btn-primary btn-sm" v-on:click="addRecord">增加记录</button>
+		
+			<form id="form">
+		  	    <div class="form-group">
+				    <label for="recordTitle">标题名：<span> {{recordTitle}} </span></label>
+				    <input type="text" class="form-control" id="recordTitle" name="recordTitle" v-model="recordTitle" placeholder="请输入记录的标题名称">
+				</div>
+				<!-- <div class="errors">
+			        <p v-if="$validation1.recordtitle.required">标题名不能为空.</p>
+			    </div> -->
+		    	<button class="btn btn-primary btn-sm" v-on:click="addRecord">增加记录</button>
+	    	</form>
   </section>
 </template>
 
 <script>
+var $ = require('../lib/js/common/jquery')
+
 export default {
   ready: function() {
 
@@ -49,7 +56,6 @@ export default {
       }).error(function(data, status, request) {
           console.log('fail' + status + "," + request);
       });
-
       
   },
   data () {
@@ -63,6 +69,7 @@ export default {
         this.blog_artciles.splice(index, 1);
       },
       addRecord: function(){
+      	
       	var title = this.recordTitle.trim();
       	if(title!=''){
 	      	var record ={'date':'1小时前','title':title,'content':'test content','desc':'test desc','img':'../lib/img/blog/pic-cannot-be-found.png'};

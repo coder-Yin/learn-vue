@@ -1,5 +1,6 @@
 var Vue = require('vue')
 var blogIndex = require('../views/blog.vue')
+var blogManage = require('../views/blog-manage.vue')
 
 
 var VueRouter = require('vue-router')
@@ -23,6 +24,9 @@ var router = new VueRouter()
 router.map({
     '/index':{
         component: blogIndex
+    },
+    '/manage':{
+    	component: blogManage
     }
 })
 

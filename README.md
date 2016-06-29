@@ -1,7 +1,7 @@
 # learn-vue
 使用vue.js搭建个人网站
 #####使用技术： vue.js+webpack
-#####项目说明： 此项目是本人空余时间搭建的，项目会一直迭代更新。希望大家提供宝贵的意见和建议，谢谢。
+#####项目说明： 此项目是本人空余时间搭建的。希望大家提供宝贵的意见和建议，谢谢。
 #####邮&emsp;&emsp;&ensp;箱： yin_x_f@163.com
 #####个人网站： http://www.coderyin.com/
 #####个人博客： http://www.jianshu.com/users/489e597a9cad/top_articles
@@ -33,7 +33,7 @@ npm test
 ```
 
 ####历史更新
-  *2016.04.20*
+  *2016.06.29*
 
     1.重构项目；
     2.增加eslint检验，可以在配置文件中打开(build/webpack.base.conf.js中的注释打开)；

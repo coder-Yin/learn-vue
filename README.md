@@ -30,6 +30,9 @@ npm run e2e
 
 # run all tests
 npm test
+
+# 访问路径
+http://localhost:8080/#!/index
 ```
 
 ####历史更新

@@ -4,10 +4,40 @@
 #####项目说明： 此项目是本人空余时间搭建的，项目会一直迭代更新。希望大家提供宝贵的意见和建议，谢谢。
 #####邮&emsp;&emsp;&ensp;箱： yin_x_f@163.com
 #####个人网站： http://www.coderyin.com/
-#####个人博客： http://www.jianshu.com/users/489e597a9cad/latest_articles
+#####个人博客： http://www.jianshu.com/users/489e597a9cad/top_articles
 
+
+### Build Setup
+
+```
+# git clone
+git clone https://github.com/coder-Yin/learn-vue.git
+ 
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
 
 ####历史更新
+  *2016.04.20*
+
+    1.重构项目；
+    2.增加eslint检验，可以在配置文件中打开(build/webpack.base.conf.js中的注释打开)；
+    
   *2016.04.20*
 
     1.使用sourcetree测试~
@@ -75,3 +105,4 @@
   *2016.02.25*
 
   	1. 初始化项目搭建;
+

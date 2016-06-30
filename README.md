@@ -36,7 +36,7 @@ http://localhost:8080/#!/index
 ```
 
 ####历史更新
-  *2016.06.29*
+  *2016.06.30*
 
     1.增加表单验证（vue-validator,components/form-validate.vue,访问路径：http://localhost:8080/?#!/form）；
     2.增加touch事件（vue-touch,components/vue-touch.vue,访问路径：http://localhost:8080/?#!/touch）；

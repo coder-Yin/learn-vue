@@ -42,6 +42,7 @@
     "url-loader": "^0.5.7",
     "vue-animated-list": "^1.0.2",
     "vue-hot-reload-api": "^1.2.0",
+    "vue-html-editor": "^0.2.1",
     "vue-html-loader": "^1.2.3",
     "vue-loader": "^8.3.0",
     "vue-resource": "^0.9.1",

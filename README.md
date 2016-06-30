@@ -1,4 +1,4 @@
-# learn-vue
+# learn-vue（SPA应用）
 使用vue.js搭建个人网站
 #####使用技术： vue.js+webpack
 #####项目说明： 此项目是本人空余时间搭建的。希望大家提供宝贵的意见和建议，谢谢。
@@ -40,6 +40,7 @@ http://localhost:8080/#!/index
 
     1.增加表单验证（vue-validator,components/form-validate.vue,访问路径：http://localhost:8080/?#!/form）；
     2.增加touch事件（vue-touch,components/vue-touch.vue,访问路径：http://localhost:8080/?#!/touch）；
+    3.增加博客管理页面（blog-manage,components/blog-manage-content.vue，访问路径：http://localhost:8080/#!/blogmanage PS:form下不要用<button></button>,而要用 <input type="button" />，前者会导致不期望发生的事情——网页刷新）；
     
   *2016.06.29*
 

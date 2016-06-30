@@ -126,7 +126,6 @@ export default {
       		
       //判断接口是否请求成功
       if(d.code!=200){
-      	alert(d.msg);
       	return false;
       }
       //设置数据
@@ -139,7 +138,6 @@ export default {
     $.getJSON('../../static/json/blog_index_tags.json', function(d) {
       //判断接口是否请求成功
       if(d.code!=200){
-        alert(d.msg);
       	return false;
       }
 	  //设置数据
@@ -150,7 +148,6 @@ export default {
       
   },
   destroyed () {
-  	alert('destoryed');
   },
   components: {
     share: require('./share.vue')
@@ -163,7 +160,6 @@ export default {
   },
   methods: {
     hello: function () {
-      alert('hello world');
     }
   }
 }

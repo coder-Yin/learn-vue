@@ -18,6 +18,7 @@
 </template>
 
 <script>
+var $ = require('../../static/js/common/jquery')
 var Vue = require('vue')
 var VueTouch = require('vue-touch')
 Vue.use(VueTouch)

@@ -28,12 +28,13 @@
 	      </tbody>
 	    </table>
 		
-			<form id="form">
+			<form id="form" action="#">
 		  	    <div class="form-group">
 				    <label for="recordTitle">标题名：<span> {{recordTitle}} </span></label>
 				    <input type="text" class="form-control" id="recordTitle" name="recordTitle" v-model="recordTitle" placeholder="请输入记录的标题名称">
 				</div>
-		    	<button class="btn btn-primary btn-sm" v-on:click="addRecord">增加记录</button>
+		    	<!-- <button class="btn btn-primary btn-sm" v-on:click="addRecord">增加记录</button> -->
+          <input type="button" class="btn btn-primary btn-sm" v-on:click="addRecord" value="增加记录">
   	  </form>
   </section>
 </template>
@@ -81,6 +82,8 @@ export default {
     	if(title!=''){
       	var record ={'date':'1小时前','title':title,'content':'test content','desc':'test desc','img':'../lib/img/blog/pic-cannot-be-found.png'};
       	this.blog_artciles.push(record);
+        this.recordTitle = '';
+        //alert('123');
       	}
       }
   }

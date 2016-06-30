@@ -13,6 +13,7 @@ var blog = require('./views/blog.vue')
 var works = require('./views/works.vue')
 var formValidate = require('./views/form.vue')
 var vueTouch = require('./views/vuetouch.vue')
+var vueEditor = require('./views/vueeditor.vue')
 
 // new Vue({
 //   el: 'body',
@@ -72,6 +73,9 @@ router.map({
   },
   '/touch': {
     component: vueTouch
+  },
+  '/editor': {
+    component: vueEditor
   }
 })
 

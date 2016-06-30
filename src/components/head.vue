@@ -78,10 +78,10 @@ transform: scale(1.5);}
               <a href="http://www.coderyin.com/mysite/html/resume/resume.html">简历</a>
             </li>
             <li>
-              <a href="/#!/works">作品</a>
+              <a href="http://www.coderyin.com/mysite/html/personalwork/medias.html">组件</a>
             </li>
             <li>
-              <a href="http://www.coderyin.com/mysite/html/personalwork/medias.html">组件</a>
+              <a href="/#!/blogmanage">博客管理</a>
             </li>
             <li>
               <a href="/#!/blog">博客</a>
@@ -103,7 +103,7 @@ transform: scale(1.5);}
 </template>
 
 <script>
-var alert
+var alert;
 export default {
   data () {
     return {
@@ -112,7 +112,6 @@ export default {
   },
   methods: {
     hello: function () {
-      alert('hello world')
       this.msg = '我被修改啦'
     }
   }

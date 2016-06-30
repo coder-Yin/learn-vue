@@ -12,6 +12,7 @@ var blogManage = require('./views/blog-manage.vue')
 var blog = require('./views/blog.vue')
 var works = require('./views/works.vue')
 var formValidate = require('./views/form.vue')
+var vueTouch = require('./views/vuetouch.vue')
 
 // new Vue({
 //   el: 'body',
@@ -68,9 +69,14 @@ router.map({
   },
   '/form': {
     component: formValidate
+  },
+  '/touch': {
+    component: vueTouch
   }
 })
 
 // 现在我们可以启动应用了！
 // 路由器会创建一个 App 实例，并且挂载到选择符 #app 匹配的元素上。
 router.start(Apptest, '#test')
+
+Vue.config.devtools = true

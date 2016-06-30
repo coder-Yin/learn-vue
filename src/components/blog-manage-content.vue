@@ -1,4 +1,8 @@
 <style scoped>
+.item-move {
+  /* applied to the element when moving */
+  transition: transform .5s cubic-bezier(.55,0,.1,1);
+}
 </style>
 
 <template>
@@ -14,7 +18,7 @@
 	        </tr>
 	      </thead>
 	      <tbody>
-	        <tr v-for="item in blog_artciles">
+	        <tr v-for="item in blog_artciles" transition="item">
 	          <th scope="row">{{ $index+1 }}</th>
 	          <td>{{item.title}}</td>
 	          <td>{{item.date}}</td>
@@ -29,9 +33,6 @@
 				    <label for="recordTitle">标题名：<span> {{recordTitle}} </span></label>
 				    <input type="text" class="form-control" id="recordTitle" name="recordTitle" v-model="recordTitle" placeholder="请输入记录的标题名称">
 				</div>
-				<!-- <div class="errors">
-			        <p v-if="$validation1.recordtitle.required">标题名不能为空.</p>
-			    </div> -->
 		    	<button class="btn btn-primary btn-sm" v-on:click="addRecord">增加记录</button>
   	  </form>
   </section>
@@ -39,6 +40,10 @@
 
 <script>
 var $ = require('../../static/js/common/jquery')
+
+var Vue = require('vue')
+Vue.use(require('vue-animated-list'))
+
 var alert;
 
 export default {
@@ -51,7 +56,6 @@ export default {
       		
       //判断接口是否请求成功
       if(d.code!=200){
-        alert(d.msg);
         return false;
 		  }
 		  //设置数据

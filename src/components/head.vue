@@ -81,6 +81,9 @@ transform: scale(1.5);}
               <a href="http://www.coderyin.com/mysite/html/personalwork/medias.html">组件</a>
             </li>
             <li>
+              <a href="/#!/works">作品</a>
+            </li>
+            <li>
               <a href="/#!/blogmanage">博客管理</a>
             </li>
             <li>

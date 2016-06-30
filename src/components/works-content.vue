@@ -43,24 +43,20 @@
 	  	   <h2 class="works-title">作品图</h2>
 	  	   <p class="works-date">2015.12-2016.03</p>
 	       <ul class="clearfix ul-pic">
-	       		<li v-for="item in picStyles">
+	       		<li v-for="item in items">
 	       			<p class="pic" v-bind:style="{height:item.height,backgroundColor:item.bgColor}"></p>
 	       			<p class="pic-desc">{{item.name}}</p>
 	       		</li>
 	       </ul>
 
        </div>
-
-       <div id="example">
-		  <my-component></my-component>
-		</div>
   </section>
 </template>
 
 
 
 <script>
-var $ = require('../../static/js/common/jquery')
+//var $ = require('../../static/js/common/jquery')
 
 export default {
   ready: function () {
@@ -81,15 +77,27 @@ export default {
 	  return Math.floor(Math.random()*200 + 100);
 	},
 	getColor: function () {
-	  var colors = ["#006699","#87c80c","#2294EA","#4ec83b","#f00","#111","#222","#333","#444","#555"];
+	  var colors = ["#069","#87c80c","#2294EA","#4ec83b","#f00","#111","#222","#333","#444","#555"];
 	  var randomIndex = Math.floor(Math.random()*10);
 	  return colors[randomIndex];
 	}
   },
   data () {
     return {
-      picStyles: []
+      items: []
     }
   }
 }
+
+$(function(){
+  var $container = $('.ul-pic');
+  $container.imagesLoaded(function() {
+      $container.masonry({
+              itemSelector: 'li',
+              gutter: 10,
+              isAnimated: true,
+          });
+   });
+
+});
 </script>

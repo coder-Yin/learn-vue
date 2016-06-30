@@ -39,6 +39,7 @@
 
 <script>
 var $ = require('../../static/js/common/jquery')
+var alert;
 
 export default {
   ready: function() {

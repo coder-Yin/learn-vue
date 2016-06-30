@@ -38,6 +38,10 @@ http://localhost:8080/#!/index
 ####历史更新
   *2016.06.29*
 
+    1.增加表单验证（vue-validator,components/form-validate.vue,访问路径：http://localhost:8080/?#!/form）
+    
+  *2016.06.29*
+
     1.重构项目；
     2.增加eslint检验，可以在配置文件中打开(build/webpack.base.conf.js中的注释打开)；
     

@@ -11,6 +11,7 @@ var Index = require('./views/index.vue')
 var blogManage = require('./views/blog-manage.vue')
 var blog = require('./views/blog.vue')
 var works = require('./views/works.vue')
+var formValidate = require('./views/form.vue')
 
 // new Vue({
 //   el: 'body',
@@ -25,6 +26,11 @@ Vue.use(VueRouter)
 //get json数据
 var VueResource = require('vue-resource')
 Vue.use(VueResource)
+
+
+//表单验证
+// var VueValidator = require('vue-validator')
+// Vue.use(VueValidator)
 
 // 定义组件
 var Foo = Vue.extend({
@@ -59,6 +65,9 @@ router.map({
   },
   '/works': {
     component: works
+  },
+  '/form': {
+    component: formValidate
   }
 })
 

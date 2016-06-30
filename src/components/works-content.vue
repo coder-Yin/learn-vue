@@ -48,7 +48,12 @@
 	       			<p class="pic-desc">{{item.name}}</p>
 	       		</li>
 	       </ul>
+
        </div>
+
+       <div id="example">
+		  <my-component></my-component>
+		</div>
   </section>
 </template>
 
@@ -68,7 +73,7 @@ export default {
       tempData[i] = {"name":name,"height":height,"bgColor":bgColor};
     }
 
-    this.$set('picStyles',tempData);
+    this.$set('items',tempData);
       
   },
   methods: {
@@ -79,16 +84,6 @@ export default {
 	  var colors = ["#006699","#87c80c","#2294EA","#4ec83b","#f00","#111","#222","#333","#444","#555"];
 	  var randomIndex = Math.floor(Math.random()*10);
 	  return colors[randomIndex];
-	},
-	picMasonry: function () {
-		var $container = $('.ul-pic');
-        $container.imagesLoaded(function() {
-            $container.masonry({
-                itemSelector: 'li',
-                gutter: 20,
-                isAnimated: true,
-            });
-         });
 	}
   },
   data () {

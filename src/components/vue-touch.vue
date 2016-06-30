@@ -21,6 +21,9 @@
 var $ = require('../../static/js/common/jquery')
 var Vue = require('vue')
 var VueTouch = require('vue-touch')
+VueTouch.config.swipe = {
+  direction: 'horizontal'
+};
 Vue.use(VueTouch)
 
 VueTouch.registerCustomEvent('doubletap', {

@@ -43,6 +43,7 @@ http://localhost:8080/#!/index
     3.增加博客管理页面（blog-manage,components/blog-manage-content.vue，访问路径：http://localhost:8080/#!/blogmanage)
     PS:form下不要用<button></button>,而要用 <input type="button" />，前者会导致不期望发生的事情——网页刷新；
     4.增加作品瀑布流（works,components/works-content.vue,访问路径：http://localhost:8080/#!/works）；
+    5.修复移动端swipeleft,swiperight (VueTouch.config.swipe = {direction: 'horizontal'});
 
     
   *2016.06.29*

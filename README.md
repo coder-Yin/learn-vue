@@ -36,7 +36,7 @@ http://localhost:8080/#!/index
 ```
 
 ####历史更新
-  *2016.06.30*
+  *2016.07.02*
 
     1.SPA增加多页面入口的功能（访问路径：http://localhost:8080/test.html#!/index）；
     主要配置：

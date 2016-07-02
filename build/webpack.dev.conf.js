@@ -17,9 +17,9 @@ module.exports = merge(baseWebpackConfig, {
   // eval-source-map is faster for development
   devtool: '#eval-source-map',
   plugins: [
-    new webpack.DefinePlugin({
-      'process.env': config.dev.env
-    }),
+    // new webpack.DefinePlugin({
+    //   'process.env': config.dev.env
+    // }),
     // https://github.com/glenjamin/webpack-hot-middleware#installation--usage
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
@@ -28,6 +28,13 @@ module.exports = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
+      chunks: ['app'],
+      inject: true
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'test.html',
+      template: 'test.html',
+      chunks: ['test'],
       inject: true
     })
   ]

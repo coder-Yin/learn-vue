@@ -5,6 +5,7 @@
 #####邮&emsp;&emsp;&ensp;箱： yin_x_f@163.com
 #####个人网站： http://www.coderyin.com/
 #####个人博客： http://www.jianshu.com/users/489e597a9cad/top_articles
+#####git 博 客： http://coder-yin.github.io/2016/07/04/hello-world/
 
 
 ### Build Setup

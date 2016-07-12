@@ -25,6 +25,9 @@ npm run build
 
 # 访问路径
 http://localhost:8080/index.html#!/index
+
+# 项目运行效果
+http://www.jianshu.com/p/48ab268bc890
 ```
 
 ####历史更新

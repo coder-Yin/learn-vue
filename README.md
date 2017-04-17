@@ -1,11 +1,11 @@
 # learn-vue
 使用vue.js搭建个人网站
-#####使用技术： vue.js+webpack
-#####项目说明： 此项目是本人空余时间搭建的。希望大家提供宝贵的意见和建议，谢谢。
-#####邮&emsp;&emsp;&ensp;箱： yin_x_f@163.com
-#####个人网站： http://www.coderyin.com/
-#####个人博客： http://www.jianshu.com/users/489e597a9cad/top_articles
-#####git 博 客： http://coder-yin.github.io/2016/07/04/hello-world/
+##### 使用技术： vue.js+webpack
+##### 项目说明： 此项目是本人空余时间搭建的。希望大家提供宝贵的意见和建议，谢谢。
+##### 邮&emsp;&emsp;&ensp;箱： yin_x_f@163.com
+##### 个人网站： http://www.coderyin.com/
+##### 个人博客： http://www.jianshu.com/users/489e597a9cad/top_articles
+##### git 博 客： http://coder-yin.github.io/2016/07/04/hello-world/
 
 
 ### Build Setup
@@ -30,7 +30,7 @@ http://localhost:8080/index.html#!/index
 http://www.jianshu.com/p/48ab268bc890
 ```
 
-####历史更新
+#### 历史更新
   *2016.07.02*
 
     1.SPA增加多页面入口的功能（访问路径：http://localhost:8080/test.html#!/index）；
